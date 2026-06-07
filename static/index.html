@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chromasense</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="workspace" aria-label="Chromasense analysis workspace">
+        <form class="control-panel" id="analysis-form">
+          <div class="brand-row">
+            <div>
+              <p class="eyebrow">Chromasense</p>
+              <h1>Image Palette Analyzer</h1>
+            </div>
+            <span class="status-pill" id="status-pill">Ready</span>
+          </div>
+
+          <label class="drop-zone" id="drop-zone">
+            <input id="image-input" name="file" type="file" accept="image/jpeg,image/png,image/webp" required>
+            <span class="drop-icon" aria-hidden="true">+</span>
+            <span class="drop-title">Choose image</span>
+            <span class="drop-meta" id="file-name">JPEG, PNG, or WebP</span>
+          </label>
+
+          <div class="preview-frame" id="preview-frame" hidden>
+            <img id="preview-image" alt="Uploaded preview">
+          </div>
+
+          <div class="range-row">
+            <label for="n-colors">Colors</label>
+            <input id="n-colors" name="n_colors" type="range" min="3" max="8" value="5">
+            <output id="n-colors-output" for="n-colors">5</output>
+          </div>
+
+          <button class="primary-action" id="analyze-button" type="submit" disabled>
+            Analyze
+          </button>
+        </form>
+
+        <section class="results-panel" aria-live="polite">
+          <div class="empty-state" id="empty-state">
+            <h2>Upload image to begin.</h2>
+            <p>Palette, mood, feedback, pairing, warnings, and metadata appear here.</p>
+          </div>
+
+          <div class="results" id="results" hidden>
+            <header class="result-header">
+              <div>
+                <p class="eyebrow">Mood</p>
+                <h2 id="mood">-</h2>
+              </div>
+              <p class="confidence" id="confidence">0%</p>
+            </header>
+
+            <p class="vibe" id="vibe"></p>
+
+            <div class="tag-row" id="tags"></div>
+
+            <section class="section-block">
+              <div class="section-heading">
+                <h3>Palette</h3>
+                <span id="palette-count">0 colors</span>
+              </div>
+              <div class="palette-grid" id="palette-grid"></div>
+            </section>
+
+            <section class="section-block">
+              <div class="section-heading">
+                <h3>CLIP Top 3</h3>
+                <span id="clip-primary">-</span>
+              </div>
+              <div class="score-list" id="clip-scores"></div>
+            </section>
+
+            <section class="section-block two-column">
+              <article>
+                <h3>Use Case</h3>
+                <p id="use-case"></p>
+              </article>
+              <article>
+                <h3>Feedback</h3>
+                <dl class="detail-list" id="feedback"></dl>
+              </article>
+            </section>
+
+            <section class="section-block">
+              <h3>Pairing</h3>
+              <div class="pairing-grid" id="pairing"></div>
+            </section>
+
+            <section class="section-block secondary" id="warnings-section" hidden>
+              <h3>Warnings</h3>
+              <ul class="warning-list" id="warnings"></ul>
+            </section>
+
+            <details class="metadata-block">
+              <summary>Metadata</summary>
+              <pre id="metadata"></pre>
+            </details>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/static/app.js" defer></script>
+  </body>
+</html>

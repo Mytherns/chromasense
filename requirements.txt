@@ -1,0 +1,16 @@
+fastapi>=0.115
+uvicorn>=0.30
+python-multipart>=0.0.9
+pillow>=10.0
+numpy>=1.26
+scikit-learn>=1.4
+transformers>=4.49
+accelerate>=0.33
+qwen-vl-utils>=0.0.8
+torch>=2.3
+colormath>=3.0
+scipy>=1.11
+ftfy>=6.2
+regex>=2024.5
+tqdm>=4.66
+pyngrok>=7.2
