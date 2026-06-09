@@ -64,7 +64,7 @@ Update checkbox when each phase completed.
   - ngrok
   - `/warmup`
 
-- [ ] Phase 8: `README.md`
+- [x] Phase 8: `README.md`
   - overview
   - setup
   - Colab demo
