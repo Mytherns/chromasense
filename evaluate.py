@@ -1,4 +1,4 @@
-"""Evaluate ChromaSense color extraction and CLIP mood classification."""
+# Evaluate ChromaSense color extraction and CLIP mood classification.
 
 from __future__ import annotations
 
@@ -22,7 +22,8 @@ VALID_IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
 
 
 class EvaluationError(ValueError):
-    """Raised when evaluation input is invalid."""
+    # Raised when evaluation input is invalid.
+    pass
 
 
 @dataclass(frozen=True)

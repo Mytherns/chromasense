@@ -33,11 +33,12 @@ _device: str | None = None
 
 
 class ClipMoodError(RuntimeError):
-    """Raised when CLIP mood classification cannot run."""
+    # Raised when CLIP mood classification cannot run.
+    pass
 
 
 def load_clip_model() -> dict[str, Any]:
-    """Lazy-load CLIP and return compact readiness metadata."""
+    # Lazy-load CLIP and return compact readiness metadata.
     global _processor, _model, _device
 
     if _processor is not None and _model is not None and _device is not None:
@@ -65,7 +66,7 @@ def load_clip_model() -> dict[str, Any]:
 
 
 def is_clip_loaded() -> bool:
-    """Return whether CLIP model and processor are already in memory."""
+    # Return whether CLIP model and processor are already in memory.
     return _processor is not None and _model is not None and _device is not None
 
 
@@ -73,7 +74,7 @@ def classify_mood(
     image: str | Path | Image.Image,
     top_k: int = TOP_K,
 ) -> dict[str, Any]:
-    """Classify image mood, returning only classifier output fields."""
+    # Classify image mood, returning only classifier output fields.
     return classify_mood_with_metadata(image, top_k)["classification"]
 
 
@@ -81,7 +82,7 @@ def classify_mood_with_metadata(
     image: str | Path | Image.Image,
     top_k: int = TOP_K,
 ) -> dict[str, Any]:
-    """Classify image mood and include fallback/warning metadata."""
+    # Classify image mood and include fallback/warning metadata.
     try:
         classification = _classify_mood(image, top_k)
         return {
@@ -102,7 +103,7 @@ def classify_mood_with_metadata(
 
 
 def fallback_mood_classification() -> dict[str, Any]:
-    """Deterministic response used when CLIP cannot classify."""
+    # Deterministic response used when CLIP cannot classify.
     return {
         "primary_mood": "unknown",
         "confidence": 0.0,

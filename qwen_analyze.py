@@ -52,11 +52,12 @@ BASIC_COLOR_NAMES = [
 
 
 class QwenAnalysisError(RuntimeError):
-    """Raised when Qwen generation or schema handling fails."""
+    # Raised when Qwen generation or schema handling fails.
+    pass
 
 
 def load_qwen_model() -> dict[str, Any]:
-    """Lazy-load Qwen and return compact readiness metadata."""
+    # Lazy-load Qwen and return compact readiness metadata.
     global _model, _processor, _process_vision_info, _device, _model_load_seconds
 
     if _model is not None and _processor is not None and _process_vision_info is not None:
@@ -95,7 +96,7 @@ def load_qwen_model() -> dict[str, Any]:
 
 
 def is_qwen_loaded() -> bool:
-    """Return whether Qwen model, processor, and vision helper are already loaded."""
+    # Return whether Qwen model, processor, and vision helper are already loaded.
     return _model is not None and _processor is not None and _process_vision_info is not None
 
 
@@ -107,7 +108,7 @@ def analyze_design(
     image_size: list[int] | tuple[int, int] | None = None,
     clip_used_fallback: bool = False,
 ) -> dict[str, Any]:
-    """Generate beginner design guidance and always return the public schema."""
+    # Generate beginner design guidance and always return the public schema.
     started = time.perf_counter()
 
     if os.getenv("CHROMASENSE_SKIP_QWEN") == "1":
@@ -149,14 +150,14 @@ def analyze_design(
 
 
 def warmup_qwen() -> dict[str, Any]:
-    """Load Qwen for the future `/warmup` endpoint."""
+    # Load Qwen for the future `/warmup` endpoint.
     if os.getenv("CHROMASENSE_SKIP_QWEN") == "1":
         raise QwenAnalysisError("Qwen skipped because CHROMASENSE_SKIP_QWEN=1.")
     return load_qwen_model()
 
 
 def parse_qwen_json(raw_text: str) -> dict[str, Any]:
-    """Parse Qwen JSON, repairing common Markdown/object-wrapper output."""
+    # Parse Qwen JSON, repairing common Markdown/object-wrapper output.
     if not raw_text or not raw_text.strip():
         raise QwenAnalysisError("Qwen returned empty output.")
 
@@ -188,7 +189,7 @@ def enforce_analysis_schema(
     clip_used_fallback: bool = False,
     warnings: list[str] | None = None,
 ) -> dict[str, Any]:
-    """Coerce parsed Qwen output into the project response schema."""
+    # Coerce parsed Qwen output into the project response schema.
     safe_colors = _coerce_colors(data.get("colors"), colors)
     safe_clip = _coerce_clip_classification(clip_classification)
     safe_tags = _coerce_string_list(data.get("tags"), _fallback_tags(safe_clip, safe_colors))
@@ -223,7 +224,7 @@ def fallback_analysis(
     warning: str = "Qwen guidance fallback used.",
     clip_used_fallback: bool = False,
 ) -> dict[str, Any]:
-    """Return deterministic design guidance when Qwen cannot run."""
+    # Return deterministic design guidance when Qwen cannot run.
     safe_colors = _fallback_color_names(colors)
     safe_clip = _coerce_clip_classification(clip_classification)
 
