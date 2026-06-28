@@ -1,0 +1,601 @@
+style,image_path,filename,artist,style_features_source,avg_saturation,avg_lightness,avg_hue,contrast_spread,hue_variance,warm_ratio
+baroque,hf://huggan/wikiart/1/20,hf://huggan/wikiart/1/20,rembrandt,kmeans,0.060473,0.375003,39.480181,0.633334,0.0027,1.0
+impressionism,hf://huggan/wikiart/3/17,hf://huggan/wikiart/3/17,pierre-auguste-renoir,kmeans,0.265169,0.400828,44.228808,0.382353,0.008548,1.0
+art_nouveau,hf://huggan/wikiart/5/1,hf://huggan/wikiart/5/1,boris-kustodiev,kmeans,0.398588,0.555648,164.24373,0.247059,0.610375,0.187058
+impressionism,hf://huggan/wikiart/14/17,hf://huggan/wikiart/14/17,pierre-auguste-renoir,kmeans,0.388572,0.57841,329.858665,0.37647,0.674769,0.511059
+baroque,hf://huggan/wikiart/20/20,hf://huggan/wikiart/20/20,rembrandt,kmeans,0.244987,0.735757,39.647429,0.154901,0.000342,1.0
+impressionism,hf://huggan/wikiart/22/17,hf://huggan/wikiart/22/17,pierre-auguste-renoir,kmeans,0.319528,0.42995,21.556172,0.464706,0.012336,1.0
+baroque,hf://huggan/wikiart/24/20,hf://huggan/wikiart/24/20,rembrandt,kmeans,0.132744,0.488493,14.253806,0.635294,0.131189,0.861603
+impressionism,hf://huggan/wikiart/25/4,hf://huggan/wikiart/25/4,claude-monet,kmeans,0.45439,0.426698,36.121505,0.309803,0.262613,0.865431
+art_nouveau,hf://huggan/wikiart/37/14,hf://huggan/wikiart/37/14,nicholas-roerich,kmeans,0.270742,0.312029,120.218254,0.415687,0.894374,0.337215
+art_nouveau,hf://huggan/wikiart/38/19,hf://huggan/wikiart/38/19,raphael-kirchner,kmeans,0.758727,0.770946,47.154097,0.860785,0.003663,1.0
+baroque,hf://huggan/wikiart/39/20,hf://huggan/wikiart/39/20,rembrandt,kmeans,0.154509,0.677193,44.944886,0.568627,0.004305,1.0
+impressionism,hf://huggan/wikiart/40/17,hf://huggan/wikiart/40/17,pierre-auguste-renoir,kmeans,0.636051,0.494718,32.985386,0.566666,0.009205,1.0
+impressionism,hf://huggan/wikiart/43/6,hf://huggan/wikiart/43/6,eugene-boudin,kmeans,0.274643,0.589095,200.999913,0.405883,0.398912,0.192006
+impressionism,hf://huggan/wikiart/44/17,hf://huggan/wikiart/44/17,pierre-auguste-renoir,kmeans,0.470958,0.577381,37.479637,0.590196,0.007933,1.0
+art_nouveau,hf://huggan/wikiart/51/19,hf://huggan/wikiart/51/19,raphael-kirchner,kmeans,0.743564,0.679389,37.593553,0.331373,0.097474,0.93342
+impressionism,hf://huggan/wikiart/53/21,hf://huggan/wikiart/53/21,salvador-dali,kmeans,0.238865,0.57107,158.758301,0.580392,0.133072,0.054304
+baroque,hf://huggan/wikiart/55/20,hf://huggan/wikiart/55/20,rembrandt,kmeans,0.259916,0.136457,0.056074,0.605882,0.03886,1.0
+impressionism,hf://huggan/wikiart/57/16,hf://huggan/wikiart/57/16,paul-cezanne,kmeans,0.330188,0.371431,64.752513,0.311765,0.054119,0.848632
+art_nouveau,hf://huggan/wikiart/63/14,hf://huggan/wikiart/63/14,nicholas-roerich,kmeans,0.074526,0.73298,218.567399,0.549019,0.004901,0.0
+impressionism,hf://huggan/wikiart/67/17,hf://huggan/wikiart/67/17,pierre-auguste-renoir,kmeans,0.455172,0.599946,35.301156,0.323529,0.006141,1.0
+impressionism,hf://huggan/wikiart/71/4,hf://huggan/wikiart/71/4,claude-monet,kmeans,0.245697,0.653017,263.93792,0.474509,0.478878,0.371884
+impressionism,hf://huggan/wikiart/74/5,hf://huggan/wikiart/74/5,edgar-degas,kmeans,0.718921,0.370247,17.407424,0.115687,0.001415,1.0
+impressionism,hf://huggan/wikiart/75/17,hf://huggan/wikiart/75/17,pierre-auguste-renoir,kmeans,0.265447,0.272574,36.447357,0.558824,0.008378,1.0
+impressionism,hf://huggan/wikiart/76/3,hf://huggan/wikiart/76/3,childe-hassam,kmeans,0.367338,0.677654,45.69084,0.580392,0.033545,0.837155
+impressionism,hf://huggan/wikiart/77/16,hf://huggan/wikiart/77/16,paul-cezanne,kmeans,0.332608,0.564258,36.563825,0.529412,0.008535,1.0
+impressionism,hf://huggan/wikiart/78/4,hf://huggan/wikiart/78/4,claude-monet,kmeans,0.163986,0.616182,25.149249,0.584314,0.152959,0.88519
+impressionism,hf://huggan/wikiart/79/2,hf://huggan/wikiart/79/2,camille-pissarro,kmeans,0.514687,0.724852,36.977015,0.619608,0.030174,1.0
+impressionism,hf://huggan/wikiart/81/4,hf://huggan/wikiart/81/4,claude-monet,kmeans,0.320898,0.11379,168.093871,0.5,0.281325,0.141481
+impressionism,hf://huggan/wikiart/84/17,hf://huggan/wikiart/84/17,pierre-auguste-renoir,kmeans,0.459719,0.583588,30.244546,0.470588,0.029019,1.0
+impressionism,hf://huggan/wikiart/85/4,hf://huggan/wikiart/85/4,claude-monet,kmeans,0.394787,0.694365,120.261471,0.711764,0.626287,0.536155
+impressionism,hf://huggan/wikiart/86/11,hf://huggan/wikiart/86/11,john-singer-sargent,kmeans,0.283293,0.736293,39.472059,0.766667,0.030633,1.0
+art_nouveau,hf://huggan/wikiart/88/1,hf://huggan/wikiart/88/1,boris-kustodiev,kmeans,0.305252,0.515934,79.613981,0.482353,0.114699,0.330815
+impressionism,hf://huggan/wikiart/89/17,hf://huggan/wikiart/89/17,pierre-auguste-renoir,kmeans,0.52967,0.493419,27.892711,0.194117,0.002334,1.0
+impressionism,hf://huggan/wikiart/90/16,hf://huggan/wikiart/90/16,paul-cezanne,kmeans,0.285751,0.699752,33.42433,0.615686,0.175267,0.913181
+impressionism,hf://huggan/wikiart/92/5,hf://huggan/wikiart/92/5,edgar-degas,kmeans,0.480069,0.494657,27.545331,0.570588,0.003275,1.0
+impressionism,hf://huggan/wikiart/94/5,hf://huggan/wikiart/94/5,edgar-degas,kmeans,0.340061,0.434422,31.41297,0.12549,0.944621,0.527451
+impressionism,hf://huggan/wikiart/96/15,hf://huggan/wikiart/96/15,pablo-picasso,kmeans,0.469654,0.435732,49.875105,0.525491,0.008815,1.0
+impressionism,hf://huggan/wikiart/97/2,hf://huggan/wikiart/97/2,camille-pissarro,kmeans,0.388216,0.437588,41.65763,0.509804,0.024486,1.0
+baroque,hf://huggan/wikiart/98/20,hf://huggan/wikiart/98/20,rembrandt,kmeans,0.509756,0.124304,53.197532,0.611765,0.023121,1.0
+art_nouveau,hf://huggan/wikiart/106/1,hf://huggan/wikiart/106/1,boris-kustodiev,kmeans,0.26583,0.390464,46.571306,0.678431,0.569647,0.715696
+baroque,hf://huggan/wikiart/111/20,hf://huggan/wikiart/111/20,rembrandt,kmeans,0.169784,0.40162,359.987575,0.588235,0.047233,1.0
+baroque,hf://huggan/wikiart/114/20,hf://huggan/wikiart/114/20,rembrandt,kmeans,0.391381,0.133956,19.356935,0.6,0.006447,1.0
+impressionism,hf://huggan/wikiart/116/3,hf://huggan/wikiart/116/3,childe-hassam,kmeans,0.204659,0.689374,20.990075,0.686275,0.234783,0.949688
+impressionism,hf://huggan/wikiart/119/6,hf://huggan/wikiart/119/6,eugene-boudin,kmeans,0.20671,0.549302,36.686831,0.647058,0.00481,1.0
+impressionism,hf://huggan/wikiart/122/4,hf://huggan/wikiart/122/4,claude-monet,kmeans,0.140699,0.614637,176.49171,0.413725,0.312797,0.0
+impressionism,hf://huggan/wikiart/126/3,hf://huggan/wikiart/126/3,childe-hassam,kmeans,0.437232,0.640431,82.26927,0.478432,0.756129,0.59789
+baroque,hf://huggan/wikiart/127/20,hf://huggan/wikiart/127/20,rembrandt,kmeans,0.347483,0.729172,41.259876,0.760784,0.000445,1.0
+impressionism,hf://huggan/wikiart/134/17,hf://huggan/wikiart/134/17,pierre-auguste-renoir,kmeans,0.310754,0.6746,3.247899,0.635294,0.375418,0.769822
+art_nouveau,hf://huggan/wikiart/137/1,hf://huggan/wikiart/137/1,boris-kustodiev,kmeans,0.334787,0.398649,228.812131,0.386275,0.446733,0.177832
+impressionism,hf://huggan/wikiart/141/4,hf://huggan/wikiart/141/4,claude-monet,kmeans,0.498841,0.807484,180.359083,0.60196,0.207924,0.091339
+impressionism,hf://huggan/wikiart/143/11,hf://huggan/wikiart/143/11,john-singer-sargent,kmeans,0.326041,0.718383,40.175539,0.690196,0.015548,1.0
+impressionism,hf://huggan/wikiart/148/4,hf://huggan/wikiart/148/4,claude-monet,kmeans,0.450612,0.410732,41.299138,0.135295,0.009279,1.0
+impressionism,hf://huggan/wikiart/151/11,hf://huggan/wikiart/151/11,john-singer-sargent,kmeans,0.187672,0.672509,10.662449,0.164706,0.047869,1.0
+impressionism,hf://huggan/wikiart/155/3,hf://huggan/wikiart/155/3,childe-hassam,kmeans,0.366849,0.674943,218.78848,0.619608,0.39165,0.195892
+art_nouveau,hf://huggan/wikiart/156/14,hf://huggan/wikiart/156/14,nicholas-roerich,kmeans,0.424103,0.587798,43.307446,0.658824,0.022542,1.0
+impressionism,hf://huggan/wikiart/157/3,hf://huggan/wikiart/157/3,childe-hassam,kmeans,0.467963,0.630264,47.246997,0.613726,0.476366,0.761173
+impressionism,hf://huggan/wikiart/160/5,hf://huggan/wikiart/160/5,edgar-degas,kmeans,0.47893,0.372947,26.886607,0.386274,0.009637,1.0
+impressionism,hf://huggan/wikiart/161/2,hf://huggan/wikiart/161/2,camille-pissarro,kmeans,0.392538,0.492651,26.507489,0.435295,0.61209,0.691431
+art_nouveau,hf://huggan/wikiart/169/1,hf://huggan/wikiart/169/1,boris-kustodiev,kmeans,0.443622,0.595729,52.384215,0.631373,0.129908,0.93737
+impressionism,hf://huggan/wikiart/172/5,hf://huggan/wikiart/172/5,edgar-degas,kmeans,0.319003,0.569622,35.155367,0.486274,0.064986,0.871549
+impressionism,hf://huggan/wikiart/177/5,hf://huggan/wikiart/177/5,edgar-degas,kmeans,0.37657,0.392624,35.576937,0.380392,0.003897,1.0
+impressionism,hf://huggan/wikiart/178/3,hf://huggan/wikiart/178/3,childe-hassam,kmeans,0.331479,0.519057,40.440879,0.284314,0.004155,1.0
+art_nouveau,hf://huggan/wikiart/179/14,hf://huggan/wikiart/179/14,nicholas-roerich,kmeans,0.011515,0.323187,240.0,0.233333,0.485782,0.242891
+impressionism,hf://huggan/wikiart/182/11,hf://huggan/wikiart/182/11,john-singer-sargent,kmeans,0.197258,0.424443,46.256178,0.784314,0.035087,1.0
+impressionism,hf://huggan/wikiart/185/4,hf://huggan/wikiart/185/4,claude-monet,kmeans,0.230962,0.583946,36.172706,0.549019,0.060152,0.911852
+impressionism,hf://huggan/wikiart/186/3,hf://huggan/wikiart/186/3,childe-hassam,kmeans,0.291548,0.581334,49.602154,0.437255,0.073307,0.806018
+impressionism,hf://huggan/wikiart/188/5,hf://huggan/wikiart/188/5,edgar-degas,kmeans,0.239766,0.423938,42.936759,0.629412,0.171081,0.708791
+baroque,hf://huggan/wikiart/193/20,hf://huggan/wikiart/193/20,rembrandt,kmeans,0.197711,0.751707,44.90543,0.747059,0.007876,1.0
+baroque,hf://huggan/wikiart/194/20,hf://huggan/wikiart/194/20,rembrandt,kmeans,0.423453,0.15275,34.010756,0.856863,0.018412,0.967142
+impressionism,hf://huggan/wikiart/195/17,hf://huggan/wikiart/195/17,pierre-auguste-renoir,kmeans,0.473347,0.373243,26.120115,0.386274,0.001887,1.0
+impressionism,hf://huggan/wikiart/198/4,hf://huggan/wikiart/198/4,claude-monet,kmeans,0.069713,0.548944,271.267347,0.209804,0.124477,0.0
+impressionism,hf://huggan/wikiart/216/4,hf://huggan/wikiart/216/4,claude-monet,kmeans,0.128549,0.24269,179.105163,0.503922,0.776112,0.408148
+impressionism,hf://huggan/wikiart/220/2,hf://huggan/wikiart/220/2,camille-pissarro,kmeans,0.286853,0.643663,29.256849,0.692157,0.004696,1.0
+art_nouveau,hf://huggan/wikiart/225/19,hf://huggan/wikiart/225/19,raphael-kirchner,kmeans,0.383078,0.966494,190.12525,0.564706,0.154623,0.080261
+impressionism,hf://huggan/wikiart/228/4,hf://huggan/wikiart/228/4,claude-monet,kmeans,0.330498,0.269396,24.883056,0.460784,0.027993,1.0
+art_nouveau,hf://huggan/wikiart/234/14,hf://huggan/wikiart/234/14,nicholas-roerich,kmeans,0.491926,0.439862,40.907522,0.411764,0.020861,1.0
+art_nouveau,hf://huggan/wikiart/235/19,hf://huggan/wikiart/235/19,raphael-kirchner,kmeans,0.455713,0.692337,38.530133,0.613725,0.002123,1.0
+impressionism,hf://huggan/wikiart/241/6,hf://huggan/wikiart/241/6,eugene-boudin,kmeans,0.279994,0.468966,106.870317,0.413726,0.670917,0.493392
+impressionism,hf://huggan/wikiart/242/4,hf://huggan/wikiart/242/4,claude-monet,kmeans,0.315435,0.541365,53.562447,0.384313,0.308019,0.837921
+impressionism,hf://huggan/wikiart/244/17,hf://huggan/wikiart/244/17,pierre-auguste-renoir,kmeans,0.132786,0.298561,18.460775,0.496078,0.030488,1.0
+art_nouveau,hf://huggan/wikiart/245/14,hf://huggan/wikiart/245/14,nicholas-roerich,kmeans,0.021708,0.486678,59.163509,0.417647,0.001169,1.0
+impressionism,hf://huggan/wikiart/246/3,hf://huggan/wikiart/246/3,childe-hassam,kmeans,0.257104,0.418181,215.75522,0.449019,0.731125,0.368564
+impressionism,hf://huggan/wikiart/252/4,hf://huggan/wikiart/252/4,claude-monet,kmeans,0.124637,0.366717,347.160369,0.729411,0.373477,0.697345
+impressionism,hf://huggan/wikiart/253/17,hf://huggan/wikiart/253/17,pierre-auguste-renoir,kmeans,0.35479,0.694673,8.835027,0.292157,0.276365,0.836632
+impressionism,hf://huggan/wikiart/255/17,hf://huggan/wikiart/255/17,pierre-auguste-renoir,kmeans,0.480594,0.55767,19.088035,0.523529,0.014683,1.0
+art_nouveau,hf://huggan/wikiart/257/14,hf://huggan/wikiart/257/14,nicholas-roerich,kmeans,0.262637,0.465555,202.940471,0.407843,0.570709,0.191208
+impressionism,hf://huggan/wikiart/261/11,hf://huggan/wikiart/261/11,john-singer-sargent,kmeans,0.280671,0.367561,352.74648,0.660784,0.390104,0.541578
+impressionism,hf://huggan/wikiart/264/4,hf://huggan/wikiart/264/4,claude-monet,kmeans,0.207997,0.564767,71.898144,0.39804,0.499009,0.731655
+impressionism,hf://huggan/wikiart/265/17,hf://huggan/wikiart/265/17,pierre-auguste-renoir,kmeans,0.23491,0.525184,52.252703,0.317647,0.148594,0.781419
+impressionism,hf://huggan/wikiart/266/6,hf://huggan/wikiart/266/6,eugene-boudin,kmeans,0.111112,0.684764,141.510797,0.662745,0.550937,0.234191
+impressionism,hf://huggan/wikiart/267/4,hf://huggan/wikiart/267/4,claude-monet,kmeans,0.2941,0.500104,54.987235,0.613725,0.497878,0.754925
+impressionism,hf://huggan/wikiart/269/17,hf://huggan/wikiart/269/17,pierre-auguste-renoir,kmeans,0.435459,0.576215,26.223146,0.668627,0.022357,1.0
+impressionism,hf://huggan/wikiart/277/4,hf://huggan/wikiart/277/4,claude-monet,kmeans,0.237947,0.425483,59.145524,0.386275,0.01173,1.0
+impressionism,hf://huggan/wikiart/279/4,hf://huggan/wikiart/279/4,claude-monet,kmeans,0.386576,0.66962,198.480203,0.55098,0.443029,0.247458
+impressionism,hf://huggan/wikiart/281/17,hf://huggan/wikiart/281/17,pierre-auguste-renoir,kmeans,0.349886,0.315402,25.01834,0.464706,0.009294,1.0
+art_nouveau,hf://huggan/wikiart/283/19,hf://huggan/wikiart/283/19,raphael-kirchner,kmeans,0.524147,0.449411,28.311446,0.531373,0.003909,1.0
+impressionism,hf://huggan/wikiart/284/4,hf://huggan/wikiart/284/4,claude-monet,kmeans,0.270534,0.442928,196.95093,0.705882,0.303741,0.07132
+baroque,hf://huggan/wikiart/286/20,hf://huggan/wikiart/286/20,rembrandt,kmeans,0.270538,0.105233,15.329238,0.445098,0.003876,1.0
+impressionism,hf://huggan/wikiart/288/17,hf://huggan/wikiart/288/17,pierre-auguste-renoir,kmeans,0.464713,0.432645,31.37461,0.307844,0.000525,1.0
+impressionism,hf://huggan/wikiart/289/17,hf://huggan/wikiart/289/17,pierre-auguste-renoir,kmeans,0.675053,0.567688,29.973202,0.241176,0.001763,1.0
+impressionism,hf://huggan/wikiart/290/4,hf://huggan/wikiart/290/4,claude-monet,kmeans,0.369296,0.459469,41.660493,0.20196,0.001838,1.0
+art_nouveau,hf://huggan/wikiart/291/1,hf://huggan/wikiart/291/1,boris-kustodiev,kmeans,0.394664,0.697662,61.908895,0.513725,0.194901,0.850686
+impressionism,hf://huggan/wikiart/296/3,hf://huggan/wikiart/296/3,childe-hassam,kmeans,0.401943,0.509135,208.39981,0.666666,0.128602,0.064371
+impressionism,hf://huggan/wikiart/307/4,hf://huggan/wikiart/307/4,claude-monet,kmeans,0.1791,0.538845,50.572775,0.694118,0.10973,0.703693
+impressionism,hf://huggan/wikiart/309/17,hf://huggan/wikiart/309/17,pierre-auguste-renoir,kmeans,0.625677,0.310835,22.192013,0.472549,0.037064,1.0
+art_nouveau,hf://huggan/wikiart/310/19,hf://huggan/wikiart/310/19,raphael-kirchner,kmeans,0.450182,0.719213,36.240706,0.807844,0.000801,1.0
+art_nouveau,hf://huggan/wikiart/311/19,hf://huggan/wikiart/311/19,raphael-kirchner,kmeans,0.596444,0.814044,34.991081,0.303921,0.001953,1.0
+impressionism,hf://huggan/wikiart/318/5,hf://huggan/wikiart/318/5,edgar-degas,kmeans,0.307926,0.553737,46.3257,0.760784,0.05061,0.989568
+impressionism,hf://huggan/wikiart/320/17,hf://huggan/wikiart/320/17,pierre-auguste-renoir,kmeans,0.413845,0.526547,20.728043,0.462745,0.006227,1.0
+impressionism,hf://huggan/wikiart/321/11,hf://huggan/wikiart/321/11,john-singer-sargent,kmeans,0.612201,0.312895,23.189953,0.568627,0.012205,1.0
+baroque,hf://huggan/wikiart/322/20,hf://huggan/wikiart/322/20,rembrandt,kmeans,0.223274,0.52359,42.303147,0.72549,0.000883,1.0
+impressionism,hf://huggan/wikiart/327/6,hf://huggan/wikiart/327/6,eugene-boudin,kmeans,0.389515,0.344312,27.683034,0.713726,0.015214,1.0
+impressionism,hf://huggan/wikiart/328/4,hf://huggan/wikiart/328/4,claude-monet,kmeans,0.186831,0.265415,3.805634,0.468627,0.466526,0.672417
+art_nouveau,hf://huggan/wikiart/340/14,hf://huggan/wikiart/340/14,nicholas-roerich,kmeans,0.150001,0.541846,52.758644,0.290196,0.000138,1.0
+impressionism,hf://huggan/wikiart/344/4,hf://huggan/wikiart/344/4,claude-monet,kmeans,0.183008,0.512587,181.468201,0.521569,0.134591,0.0
+impressionism,hf://huggan/wikiart/346/3,hf://huggan/wikiart/346/3,childe-hassam,kmeans,0.409897,0.483499,58.568077,0.290196,0.002398,1.0
+baroque,hf://huggan/wikiart/351/20,hf://huggan/wikiart/351/20,rembrandt,kmeans,0.276351,0.277362,21.379354,0.580393,0.002004,1.0
+art_nouveau,hf://huggan/wikiart/353/14,hf://huggan/wikiart/353/14,nicholas-roerich,kmeans,0.099707,0.614561,357.304264,0.47451,0.183786,0.634821
+baroque,hf://huggan/wikiart/355/20,hf://huggan/wikiart/355/20,rembrandt,kmeans,0.329152,0.633233,34.85017,0.723529,0.022132,1.0
+impressionism,hf://huggan/wikiart/356/5,hf://huggan/wikiart/356/5,edgar-degas,kmeans,0.153234,0.823286,359.490562,0.631373,0.017062,0.980788
+impressionism,hf://huggan/wikiart/360/3,hf://huggan/wikiart/360/3,childe-hassam,kmeans,0.282695,0.736136,221.810701,0.509804,0.020949,0.010229
+impressionism,hf://huggan/wikiart/367/2,hf://huggan/wikiart/367/2,camille-pissarro,kmeans,0.402068,0.68516,42.549185,0.564706,0.042133,0.974835
+impressionism,hf://huggan/wikiart/368/17,hf://huggan/wikiart/368/17,pierre-auguste-renoir,kmeans,0.524775,0.493456,29.238132,0.372549,0.00089,1.0
+impressionism,hf://huggan/wikiart/370/17,hf://huggan/wikiart/370/17,pierre-auguste-renoir,kmeans,0.432014,0.523078,36.43841,0.529412,0.066764,1.0
+impressionism,hf://huggan/wikiart/374/5,hf://huggan/wikiart/374/5,edgar-degas,kmeans,0.401309,0.393522,27.770105,0.386274,0.016482,1.0
+baroque,hf://huggan/wikiart/378/20,hf://huggan/wikiart/378/20,rembrandt,kmeans,0.183347,0.758471,48.770203,0.623529,0.069806,0.90901
+impressionism,hf://huggan/wikiart/380/17,hf://huggan/wikiart/380/17,pierre-auguste-renoir,kmeans,0.191601,0.253593,110.542017,0.690196,0.054417,0.105062
+art_nouveau,hf://huggan/wikiart/381/14,hf://huggan/wikiart/381/14,nicholas-roerich,kmeans,0.237775,0.789251,229.736128,0.754902,0.409414,0.21411
+impressionism,hf://huggan/wikiart/382/4,hf://huggan/wikiart/382/4,claude-monet,kmeans,0.153334,0.671752,61.738149,0.090196,0.032768,0.730999
+impressionism,hf://huggan/wikiart/387/3,hf://huggan/wikiart/387/3,childe-hassam,kmeans,0.326472,0.623819,227.28376,0.545098,0.49135,0.255292
+impressionism,hf://huggan/wikiart/391/15,hf://huggan/wikiart/391/15,pablo-picasso,kmeans,0.26391,0.141011,86.806973,0.343137,0.14244,0.32559
+art_nouveau,hf://huggan/wikiart/392/19,hf://huggan/wikiart/392/19,raphael-kirchner,kmeans,0.535509,0.710231,38.702042,0.590196,0.000678,1.0
+impressionism,hf://huggan/wikiart/393/11,hf://huggan/wikiart/393/11,john-singer-sargent,kmeans,0.186168,0.795106,129.91282,0.692157,0.635135,0.330803
+impressionism,hf://huggan/wikiart/395/4,hf://huggan/wikiart/395/4,claude-monet,kmeans,0.247153,0.383367,157.814986,0.541176,0.23448,0.020392
+impressionism,hf://huggan/wikiart/396/17,hf://huggan/wikiart/396/17,pierre-auguste-renoir,kmeans,0.408739,0.381964,11.422378,0.505883,0.026214,1.0
+impressionism,hf://huggan/wikiart/400/3,hf://huggan/wikiart/400/3,childe-hassam,kmeans,0.374888,0.519682,35.201202,0.586275,0.012806,1.0
+impressionism,hf://huggan/wikiart/408/4,hf://huggan/wikiart/408/4,claude-monet,kmeans,0.294742,0.447811,26.996417,0.205883,0.02156,1.0
+impressionism,hf://huggan/wikiart/409/4,hf://huggan/wikiart/409/4,claude-monet,kmeans,0.470922,0.675982,210.461205,0.419608,0.013144,0.0
+art_nouveau,hf://huggan/wikiart/410/14,hf://huggan/wikiart/410/14,nicholas-roerich,kmeans,0.226745,0.239959,28.521647,0.386274,0.009247,1.0
+impressionism,hf://huggan/wikiart/411/5,hf://huggan/wikiart/411/5,edgar-degas,kmeans,0.718316,0.577887,34.24747,0.564706,0.00977,1.0
+baroque,hf://huggan/wikiart/412/20,hf://huggan/wikiart/412/20,rembrandt,kmeans,0.04122,0.745558,167.698215,0.827451,0.059918,0.0
+impressionism,hf://huggan/wikiart/413/4,hf://huggan/wikiart/413/4,claude-monet,kmeans,0.308901,0.619963,80.652396,0.476471,0.488589,0.42696
+impressionism,hf://huggan/wikiart/416/17,hf://huggan/wikiart/416/17,pierre-auguste-renoir,kmeans,0.188167,0.257421,352.056932,0.480392,0.019811,1.0
+baroque,hf://huggan/wikiart/417/20,hf://huggan/wikiart/417/20,rembrandt,kmeans,0.222648,0.11574,50.475533,0.213726,0.013116,1.0
+impressionism,hf://huggan/wikiart/418/16,hf://huggan/wikiart/418/16,paul-cezanne,kmeans,0.277008,0.575998,58.450277,0.415687,0.007407,1.0
+impressionism,hf://huggan/wikiart/419/2,hf://huggan/wikiart/419/2,camille-pissarro,kmeans,0.261772,0.425659,34.019208,0.421568,0.005196,1.0
+impressionism,hf://huggan/wikiart/421/17,hf://huggan/wikiart/421/17,pierre-auguste-renoir,kmeans,0.33119,0.62222,36.933115,0.42549,0.009379,1.0
+impressionism,hf://huggan/wikiart/423/6,hf://huggan/wikiart/423/6,eugene-boudin,kmeans,0.215128,0.621654,61.604713,0.278431,0.029332,0.705671
+impressionism,hf://huggan/wikiart/424/3,hf://huggan/wikiart/424/3,childe-hassam,kmeans,0.54053,0.65716,43.635793,0.64902,0.008384,1.0
+baroque,hf://huggan/wikiart/425/20,hf://huggan/wikiart/425/20,rembrandt,kmeans,0.104843,0.73581,66.942713,0.609804,0.030132,0.845901
+impressionism,hf://huggan/wikiart/427/5,hf://huggan/wikiart/427/5,edgar-degas,kmeans,0.337396,0.319064,35.4166,0.262745,0.005087,1.0
+baroque,hf://huggan/wikiart/428/20,hf://huggan/wikiart/428/20,rembrandt,kmeans,0.237134,0.551629,38.035538,0.390196,0.03556,1.0
+impressionism,hf://huggan/wikiart/429/4,hf://huggan/wikiart/429/4,claude-monet,kmeans,0.300303,0.676105,207.906263,0.331373,0.456801,0.243841
+impressionism,hf://huggan/wikiart/434/5,hf://huggan/wikiart/434/5,edgar-degas,kmeans,0.13522,0.424272,338.71808,0.560784,0.214807,0.847351
+impressionism,hf://huggan/wikiart/436/2,hf://huggan/wikiart/436/2,camille-pissarro,kmeans,0.461283,0.391892,41.618186,0.409804,0.003385,1.0
+impressionism,hf://huggan/wikiart/440/2,hf://huggan/wikiart/440/2,camille-pissarro,kmeans,0.326397,0.283204,37.226821,0.3,0.047133,1.0
+impressionism,hf://huggan/wikiart/443/6,hf://huggan/wikiart/443/6,eugene-boudin,kmeans,0.087243,0.482676,53.7242,0.521568,0.011042,1.0
+impressionism,hf://huggan/wikiart/447/6,hf://huggan/wikiart/447/6,eugene-boudin,kmeans,0.34409,0.511497,26.90527,0.405882,0.00092,1.0
+impressionism,hf://huggan/wikiart/450/2,hf://huggan/wikiart/450/2,camille-pissarro,kmeans,0.324772,0.629481,75.326832,0.547058,0.419243,0.749165
+impressionism,hf://huggan/wikiart/451/4,hf://huggan/wikiart/451/4,claude-monet,kmeans,0.452524,0.399293,102.316516,0.668627,0.331806,0.526485
+impressionism,hf://huggan/wikiart/452/17,hf://huggan/wikiart/452/17,pierre-auguste-renoir,kmeans,0.290345,0.600448,21.35562,0.468628,0.039677,1.0
+art_nouveau,hf://huggan/wikiart/454/14,hf://huggan/wikiart/454/14,nicholas-roerich,kmeans,0.022992,0.62484,205.556082,0.217647,0.002437,0.0
+impressionism,hf://huggan/wikiart/455/4,hf://huggan/wikiart/455/4,claude-monet,kmeans,0.285869,0.382117,209.42692,0.207844,0.011864,0.0
+art_nouveau,hf://huggan/wikiart/458/14,hf://huggan/wikiart/458/14,nicholas-roerich,kmeans,0.112687,0.403861,314.867263,0.347059,0.281585,0.584067
+impressionism,hf://huggan/wikiart/463/11,hf://huggan/wikiart/463/11,john-singer-sargent,kmeans,0.178698,0.421727,337.3071,0.801961,0.533067,0.613846
+impressionism,hf://huggan/wikiart/467/2,hf://huggan/wikiart/467/2,camille-pissarro,kmeans,0.33375,0.630512,57.570619,0.717647,0.016534,1.0
+baroque,hf://huggan/wikiart/470/20,hf://huggan/wikiart/470/20,rembrandt,kmeans,0.215443,0.187877,34.73381,0.580392,0.000739,1.0
+impressionism,hf://huggan/wikiart/473/3,hf://huggan/wikiart/473/3,childe-hassam,kmeans,0.369456,0.529675,55.650505,0.615686,0.007702,1.0
+impressionism,hf://huggan/wikiart/474/4,hf://huggan/wikiart/474/4,claude-monet,kmeans,0.443927,0.813201,203.512954,0.488235,0.003784,0.0
+art_nouveau,hf://huggan/wikiart/476/19,hf://huggan/wikiart/476/19,raphael-kirchner,kmeans,0.494438,0.85524,44.317923,0.119608,0.002339,1.0
+impressionism,hf://huggan/wikiart/477/5,hf://huggan/wikiart/477/5,edgar-degas,kmeans,0.251102,0.419895,30.177886,0.488236,0.01128,1.0
+impressionism,hf://huggan/wikiart/480/4,hf://huggan/wikiart/480/4,claude-monet,kmeans,0.26831,0.502747,40.133317,0.560785,0.559285,0.721339
+impressionism,hf://huggan/wikiart/481/4,hf://huggan/wikiart/481/4,claude-monet,kmeans,0.203824,0.639087,171.555273,0.701961,0.737766,0.412072
+impressionism,hf://huggan/wikiart/483/11,hf://huggan/wikiart/483/11,john-singer-sargent,kmeans,0.327197,0.763779,57.751088,0.758824,0.45468,0.459593
+art_nouveau,hf://huggan/wikiart/489/1,hf://huggan/wikiart/489/1,boris-kustodiev,kmeans,0.259438,0.479725,10.613833,0.533333,0.045862,1.0
+impressionism,hf://huggan/wikiart/493/5,hf://huggan/wikiart/493/5,edgar-degas,kmeans,0.443123,0.512136,35.483619,0.556863,0.000873,1.0
+baroque,hf://huggan/wikiart/494/20,hf://huggan/wikiart/494/20,rembrandt,kmeans,0.160344,0.656907,41.252422,0.517647,0.002332,1.0
+impressionism,hf://huggan/wikiart/495/17,hf://huggan/wikiart/495/17,pierre-auguste-renoir,kmeans,0.466217,0.57357,39.406107,0.596079,0.023054,1.0
+impressionism,hf://huggan/wikiart/497/17,hf://huggan/wikiart/497/17,pierre-auguste-renoir,kmeans,0.260024,0.777738,33.45506,0.52549,0.000231,1.0
+impressionism,hf://huggan/wikiart/498/17,hf://huggan/wikiart/498/17,pierre-auguste-renoir,kmeans,0.452183,0.585195,46.380384,0.584313,0.17994,0.909482
+impressionism,hf://huggan/wikiart/500/11,hf://huggan/wikiart/500/11,john-singer-sargent,kmeans,0.284013,0.158226,33.688654,0.607843,0.086631,1.0
+impressionism,hf://huggan/wikiart/502/17,hf://huggan/wikiart/502/17,pierre-auguste-renoir,kmeans,0.38817,0.56219,31.980214,0.468628,0.005678,1.0
+impressionism,hf://huggan/wikiart/506/2,hf://huggan/wikiart/506/2,camille-pissarro,kmeans,0.28724,0.533136,34.628128,0.4,8.2e-05,1.0
+impressionism,hf://huggan/wikiart/509/6,hf://huggan/wikiart/509/6,eugene-boudin,kmeans,0.205985,0.746337,78.859645,0.517647,0.021503,0.1475
+impressionism,hf://huggan/wikiart/510/6,hf://huggan/wikiart/510/6,eugene-boudin,kmeans,0.34958,0.378894,47.443969,0.101961,0.309743,0.840733
+art_nouveau,hf://huggan/wikiart/511/19,hf://huggan/wikiart/511/19,raphael-kirchner,kmeans,0.012006,0.655162,89.206781,0.47451,0.003601,0.027588
+impressionism,hf://huggan/wikiart/516/5,hf://huggan/wikiart/516/5,edgar-degas,kmeans,0.538612,0.309983,30.551434,0.486275,0.020339,1.0
+impressionism,hf://huggan/wikiart/518/6,hf://huggan/wikiart/518/6,eugene-boudin,kmeans,0.463085,0.47576,33.560123,0.372549,0.002489,1.0
+art_nouveau,hf://huggan/wikiart/521/19,hf://huggan/wikiart/521/19,raphael-kirchner,kmeans,0.375056,0.665751,155.281693,0.817647,0.106511,0.065022
+impressionism,hf://huggan/wikiart/522/16,hf://huggan/wikiart/522/16,paul-cezanne,kmeans,0.300776,0.293035,30.526681,0.582353,0.023736,1.0
+impressionism,hf://huggan/wikiart/524/2,hf://huggan/wikiart/524/2,camille-pissarro,kmeans,0.27691,0.517531,66.085346,0.64902,0.298032,0.704772
+impressionism,hf://huggan/wikiart/528/3,hf://huggan/wikiart/528/3,childe-hassam,kmeans,0.334979,0.611453,43.965789,0.496078,0.003324,1.0
+impressionism,hf://huggan/wikiart/532/4,hf://huggan/wikiart/532/4,claude-monet,kmeans,0.314601,0.600738,22.616299,0.458823,0.336849,0.829658
+impressionism,hf://huggan/wikiart/535/4,hf://huggan/wikiart/535/4,claude-monet,kmeans,0.390335,0.523245,39.741921,0.405883,0.166126,0.912584
+impressionism,hf://huggan/wikiart/537/17,hf://huggan/wikiart/537/17,pierre-auguste-renoir,kmeans,0.2948,0.544885,32.030745,0.280393,0.002669,1.0
+impressionism,hf://huggan/wikiart/538/3,hf://huggan/wikiart/538/3,childe-hassam,kmeans,0.600665,0.59736,37.513525,0.403921,0.204407,0.897964
+impressionism,hf://huggan/wikiart/545/2,hf://huggan/wikiart/545/2,camille-pissarro,kmeans,0.31949,0.467095,72.247792,0.703922,0.34894,0.514932
+impressionism,hf://huggan/wikiart/548/5,hf://huggan/wikiart/548/5,edgar-degas,kmeans,0.380005,0.328811,18.084538,0.654902,0.012295,1.0
+impressionism,hf://huggan/wikiart/552/5,hf://huggan/wikiart/552/5,edgar-degas,kmeans,0.333684,0.519039,18.229265,0.615686,0.050218,1.0
+impressionism,hf://huggan/wikiart/553/3,hf://huggan/wikiart/553/3,childe-hassam,kmeans,0.409562,0.643903,81.39131,0.572549,0.558093,0.530494
+impressionism,hf://huggan/wikiart/555/2,hf://huggan/wikiart/555/2,camille-pissarro,kmeans,0.268845,0.600028,25.762972,0.680392,0.16668,0.870758
+impressionism,hf://huggan/wikiart/557/2,hf://huggan/wikiart/557/2,camille-pissarro,kmeans,0.53283,0.472358,30.603557,0.468628,0.012166,1.0
+art_nouveau,hf://huggan/wikiart/561/14,hf://huggan/wikiart/561/14,nicholas-roerich,kmeans,0.548507,0.786332,31.410634,0.764706,0.070831,0.958396
+impressionism,hf://huggan/wikiart/570/17,hf://huggan/wikiart/570/17,pierre-auguste-renoir,kmeans,0.32385,0.405878,18.127408,0.443138,0.035253,1.0
+art_nouveau,hf://huggan/wikiart/572/14,hf://huggan/wikiart/572/14,nicholas-roerich,kmeans,0.288096,0.743257,191.199004,0.486275,0.647351,0.328103
+art_nouveau,hf://huggan/wikiart/581/14,hf://huggan/wikiart/581/14,nicholas-roerich,kmeans,0.408179,0.711781,185.079811,0.105883,0.067186,0.0
+baroque,hf://huggan/wikiart/598/20,hf://huggan/wikiart/598/20,rembrandt,kmeans,0.164551,0.619598,43.217959,0.545098,0.012807,1.0
+art_nouveau,hf://huggan/wikiart/625/19,hf://huggan/wikiart/625/19,raphael-kirchner,kmeans,0.701433,0.801645,53.817746,0.866667,0.032833,0.891346
+baroque,hf://huggan/wikiart/628/20,hf://huggan/wikiart/628/20,rembrandt,kmeans,0.521933,0.746926,33.568026,0.092157,0.000697,1.0
+baroque,hf://huggan/wikiart/645/20,hf://huggan/wikiart/645/20,rembrandt,kmeans,0.332392,0.124866,57.544345,0.77451,0.01921,1.0
+baroque,hf://huggan/wikiart/657/20,hf://huggan/wikiart/657/20,rembrandt,kmeans,0.173601,0.607148,45.23859,0.541177,0.000342,1.0
+baroque,hf://huggan/wikiart/658/20,hf://huggan/wikiart/658/20,rembrandt,kmeans,0.256942,0.791388,44.197335,0.590196,0.002178,1.0
+art_nouveau,hf://huggan/wikiart/670/14,hf://huggan/wikiart/670/14,nicholas-roerich,kmeans,0.110286,0.585411,147.301429,0.652941,0.569813,0.311251
+art_nouveau,hf://huggan/wikiart/679/14,hf://huggan/wikiart/679/14,nicholas-roerich,kmeans,0.447588,0.882407,47.080301,0.382353,0.421855,0.02802
+art_nouveau,hf://huggan/wikiart/683/14,hf://huggan/wikiart/683/14,nicholas-roerich,kmeans,0.277348,0.330036,25.450808,0.35098,0.006286,1.0
+art_nouveau,hf://huggan/wikiart/711/19,hf://huggan/wikiart/711/19,raphael-kirchner,kmeans,0.794283,0.702176,46.63323,0.245098,0.000223,1.0
+art_nouveau,hf://huggan/wikiart/718/19,hf://huggan/wikiart/718/19,raphael-kirchner,kmeans,0.402948,0.595989,44.718332,0.376471,0.05934,1.0
+baroque,hf://huggan/wikiart/724/20,hf://huggan/wikiart/724/20,rembrandt,kmeans,0.314151,0.451893,37.986011,0.707843,0.01204,1.0
+baroque,hf://huggan/wikiart/733/20,hf://huggan/wikiart/733/20,rembrandt,kmeans,0.243618,0.272296,352.64615,0.588235,0.084309,1.0
+art_nouveau,hf://huggan/wikiart/751/19,hf://huggan/wikiart/751/19,raphael-kirchner,kmeans,0.618296,0.672127,48.914968,0.688235,0.267894,0.850592
+art_nouveau,hf://huggan/wikiart/761/19,hf://huggan/wikiart/761/19,raphael-kirchner,kmeans,0.323424,0.767304,45.01642,0.7,0.005231,1.0
+baroque,hf://huggan/wikiart/769/20,hf://huggan/wikiart/769/20,rembrandt,kmeans,0.246977,0.608967,81.926384,0.754902,0.470437,0.615995
+baroque,hf://huggan/wikiart/793/20,hf://huggan/wikiart/793/20,rembrandt,kmeans,0.537805,0.233816,53.804409,0.309804,0.026252,0.766411
+baroque,hf://huggan/wikiart/799/20,hf://huggan/wikiart/799/20,rembrandt,kmeans,0.074303,0.357171,116.405389,0.484314,0.106369,0.076578
+baroque,hf://huggan/wikiart/804/20,hf://huggan/wikiart/804/20,rembrandt,kmeans,0.287841,0.762004,44.767403,0.582353,0.004428,1.0
+art_nouveau,hf://huggan/wikiart/807/19,hf://huggan/wikiart/807/19,raphael-kirchner,kmeans,0.511019,0.703525,54.326853,0.82549,0.054249,0.74376
+art_nouveau,hf://huggan/wikiart/833/14,hf://huggan/wikiart/833/14,nicholas-roerich,kmeans,0.306327,0.588704,36.368408,0.147059,0.0003,1.0
+art_nouveau,hf://huggan/wikiart/854/14,hf://huggan/wikiart/854/14,nicholas-roerich,kmeans,0.603831,0.502844,60.718839,0.578431,0.300942,0.681229
+art_nouveau,hf://huggan/wikiart/855/19,hf://huggan/wikiart/855/19,raphael-kirchner,kmeans,0.317009,0.746358,39.924499,0.778432,0.013595,1.0
+baroque,hf://huggan/wikiart/863/20,hf://huggan/wikiart/863/20,rembrandt,kmeans,0.195362,0.714546,41.375644,0.578431,0.00132,1.0
+art_nouveau,hf://huggan/wikiart/868/14,hf://huggan/wikiart/868/14,nicholas-roerich,kmeans,0.225856,0.510497,235.144701,0.409804,0.150565,0.07002
+art_nouveau,hf://huggan/wikiart/871/19,hf://huggan/wikiart/871/19,raphael-kirchner,kmeans,0.382749,0.807322,35.666988,0.805882,0.002604,1.0
+baroque,hf://huggan/wikiart/877/20,hf://huggan/wikiart/877/20,rembrandt,kmeans,0.233006,0.298869,31.491196,0.637254,0.001816,1.0
+art_nouveau,hf://huggan/wikiart/880/1,hf://huggan/wikiart/880/1,boris-kustodiev,kmeans,0.327378,0.375893,96.245982,0.670588,0.934693,0.539941
+art_nouveau,hf://huggan/wikiart/883/14,hf://huggan/wikiart/883/14,nicholas-roerich,kmeans,0.099697,0.728894,214.280958,0.62549,0.007721,0.0
+baroque,hf://huggan/wikiart/901/20,hf://huggan/wikiart/901/20,rembrandt,kmeans,0.15236,0.269702,27.846932,0.584313,0.000978,1.0
+baroque,hf://huggan/wikiart/906/20,hf://huggan/wikiart/906/20,rembrandt,kmeans,0.191455,0.691006,40.125422,0.707843,0.001911,1.0
+art_nouveau,hf://huggan/wikiart/918/14,hf://huggan/wikiart/918/14,nicholas-roerich,kmeans,0.155655,0.472214,90.609901,0.192157,0.077504,0.222545
+art_nouveau,hf://huggan/wikiart/920/14,hf://huggan/wikiart/920/14,nicholas-roerich,kmeans,0.498923,0.522942,13.77302,0.413726,0.326347,0.840938
+art_nouveau,hf://huggan/wikiart/925/14,hf://huggan/wikiart/925/14,nicholas-roerich,kmeans,0.221888,0.750936,94.41947,0.527451,0.349076,0.243042
+baroque,hf://huggan/wikiart/927/20,hf://huggan/wikiart/927/20,rembrandt,kmeans,0.039411,0.802162,151.761419,0.841176,0.020715,0.0
+art_nouveau,hf://huggan/wikiart/939/19,hf://huggan/wikiart/939/19,raphael-kirchner,kmeans,0.52445,0.756483,44.422516,0.829411,0.008331,1.0
+art_nouveau,hf://huggan/wikiart/950/19,hf://huggan/wikiart/950/19,raphael-kirchner,kmeans,0.330807,0.637693,74.207634,0.584314,0.045785,0.335689
+art_nouveau,hf://huggan/wikiart/967/19,hf://huggan/wikiart/967/19,raphael-kirchner,kmeans,0.270655,0.632571,152.032965,0.692157,0.030523,0.0
+art_nouveau,hf://huggan/wikiart/971/14,hf://huggan/wikiart/971/14,nicholas-roerich,kmeans,0.297545,0.906001,48.687699,0.598039,0.014146,1.0
+art_nouveau,hf://huggan/wikiart/972/14,hf://huggan/wikiart/972/14,nicholas-roerich,kmeans,0.596396,0.564028,46.432628,0.331373,0.005175,1.0
+art_nouveau,hf://huggan/wikiart/973/19,hf://huggan/wikiart/973/19,raphael-kirchner,kmeans,0.525983,0.742828,43.701053,0.715686,0.154174,0.915587
+baroque,hf://huggan/wikiart/976/20,hf://huggan/wikiart/976/20,rembrandt,kmeans,0.097884,0.151674,16.358052,0.378432,0.004586,1.0
+art_nouveau,hf://huggan/wikiart/980/19,hf://huggan/wikiart/980/19,raphael-kirchner,kmeans,0.488971,0.657726,60.4003,0.464706,0.32765,0.784484
+art_nouveau,hf://huggan/wikiart/982/14,hf://huggan/wikiart/982/14,nicholas-roerich,kmeans,0.554289,0.60221,38.479152,0.147059,0.007297,1.0
+baroque,hf://huggan/wikiart/995/20,hf://huggan/wikiart/995/20,rembrandt,kmeans,0.208201,0.799319,39.099496,0.805882,0.001082,1.0
+art_nouveau,hf://huggan/wikiart/1002/19,hf://huggan/wikiart/1002/19,raphael-kirchner,kmeans,0.404514,0.35295,41.070178,0.447059,0.007423,1.0
+baroque,hf://huggan/wikiart/1003/20,hf://huggan/wikiart/1003/20,rembrandt,kmeans,0.279248,0.129963,38.421958,0.529412,0.004506,1.0
+baroque,hf://huggan/wikiart/1043/20,hf://huggan/wikiart/1043/20,rembrandt,kmeans,0.131522,0.585567,51.213431,0.482353,0.008293,1.0
+art_nouveau,hf://huggan/wikiart/1063/14,hf://huggan/wikiart/1063/14,nicholas-roerich,kmeans,0.319151,0.803681,197.877936,0.52549,0.525623,0.245889
+art_nouveau,hf://huggan/wikiart/1065/14,hf://huggan/wikiart/1065/14,nicholas-roerich,kmeans,0.283072,0.313598,57.527933,0.807843,0.05011,0.777172
+art_nouveau,hf://huggan/wikiart/1070/1,hf://huggan/wikiart/1070/1,boris-kustodiev,kmeans,0.10651,0.728247,50.241289,0.527451,0.197753,0.90108
+art_nouveau,hf://huggan/wikiart/1081/14,hf://huggan/wikiart/1081/14,nicholas-roerich,kmeans,0.338893,0.429562,34.038438,0.34902,0.010134,1.0
+baroque,hf://huggan/wikiart/1085/20,hf://huggan/wikiart/1085/20,rembrandt,kmeans,0.180239,0.797873,49.392084,0.607843,6.6e-05,1.0
+art_nouveau,hf://huggan/wikiart/1089/1,hf://huggan/wikiart/1089/1,boris-kustodiev,kmeans,0.242306,0.41594,22.05058,0.37647,0.035341,1.0
+art_nouveau,hf://huggan/wikiart/1101/14,hf://huggan/wikiart/1101/14,nicholas-roerich,kmeans,0.223777,0.633144,110.311659,0.709804,0.37338,0.262286
+art_nouveau,hf://huggan/wikiart/1123/1,hf://huggan/wikiart/1123/1,boris-kustodiev,kmeans,0.358613,0.525629,62.20975,0.433333,0.949074,0.463929
+art_nouveau,hf://huggan/wikiart/1126/14,hf://huggan/wikiart/1126/14,nicholas-roerich,kmeans,0.108559,0.70614,325.461131,0.360784,0.285146,0.715334
+art_nouveau,hf://huggan/wikiart/1132/19,hf://huggan/wikiart/1132/19,raphael-kirchner,kmeans,0.316713,0.506547,28.189472,0.498039,0.039124,0.95381
+baroque,hf://huggan/wikiart/1141/20,hf://huggan/wikiart/1141/20,rembrandt,kmeans,0.207356,0.690978,46.544474,0.603921,0.001522,1.0
+art_nouveau,hf://huggan/wikiart/1142/19,hf://huggan/wikiart/1142/19,raphael-kirchner,kmeans,0.704858,0.719896,43.887255,0.77647,0.004637,1.0
+art_nouveau,hf://huggan/wikiart/1144/14,hf://huggan/wikiart/1144/14,nicholas-roerich,kmeans,0.327905,0.389111,70.312667,0.694118,0.24643,0.64193
+art_nouveau,hf://huggan/wikiart/1145/14,hf://huggan/wikiart/1145/14,nicholas-roerich,kmeans,0.317335,0.702314,133.476328,0.311764,0.673942,0.242857
+art_nouveau,hf://huggan/wikiart/1146/19,hf://huggan/wikiart/1146/19,raphael-kirchner,kmeans,0.311585,0.754295,44.529891,0.794118,0.0127,1.0
+art_nouveau,hf://huggan/wikiart/1150/1,hf://huggan/wikiart/1150/1,boris-kustodiev,kmeans,0.338185,0.716782,169.629356,0.543137,0.297776,0.199025
+art_nouveau,hf://huggan/wikiart/1159/19,hf://huggan/wikiart/1159/19,raphael-kirchner,kmeans,0.406051,0.640632,43.888176,0.743137,0.085418,0.954192
+baroque,hf://huggan/wikiart/1181/20,hf://huggan/wikiart/1181/20,rembrandt,kmeans,0.181699,0.622453,64.608507,0.562746,0.264035,0.798301
+art_nouveau,hf://huggan/wikiart/1186/14,hf://huggan/wikiart/1186/14,nicholas-roerich,kmeans,0.276604,0.55296,335.606985,0.329412,0.527885,0.606701
+art_nouveau,hf://huggan/wikiart/1187/19,hf://huggan/wikiart/1187/19,raphael-kirchner,kmeans,0.625417,0.856889,35.070488,0.582353,0.001239,1.0
+baroque,hf://huggan/wikiart/1197/20,hf://huggan/wikiart/1197/20,rembrandt,kmeans,0.239789,0.237883,17.649718,0.519607,0.010411,1.0
+art_nouveau,hf://huggan/wikiart/1209/19,hf://huggan/wikiart/1209/19,raphael-kirchner,kmeans,0.654455,0.852482,41.41213,0.845098,0.000541,1.0
+art_nouveau,hf://huggan/wikiart/1213/14,hf://huggan/wikiart/1213/14,nicholas-roerich,kmeans,0.238497,0.832549,224.375779,0.607843,0.315591,0.133732
+baroque,hf://huggan/wikiart/1216/20,hf://huggan/wikiart/1216/20,rembrandt,kmeans,0.161392,0.667456,42.932949,0.543137,0.003597,1.0
+baroque,hf://huggan/wikiart/1220/20,hf://huggan/wikiart/1220/20,rembrandt,kmeans,0.182495,0.685831,56.012876,0.435294,0.033956,1.0
+art_nouveau,hf://huggan/wikiart/1260/19,hf://huggan/wikiart/1260/19,raphael-kirchner,kmeans,0.386743,0.740845,38.849159,0.039216,0.000452,1.0
+art_nouveau,hf://huggan/wikiart/1261/19,hf://huggan/wikiart/1261/19,raphael-kirchner,kmeans,0.316106,0.760696,346.117946,0.32353,0.349717,0.362875
+baroque,hf://huggan/wikiart/1276/20,hf://huggan/wikiart/1276/20,rembrandt,kmeans,0.34622,0.147625,28.428113,0.445098,0.000778,1.0
+baroque,hf://huggan/wikiart/1279/20,hf://huggan/wikiart/1279/20,rembrandt,kmeans,0.0908,0.314506,165.906367,0.694118,0.207567,0.099471
+baroque,hf://huggan/wikiart/1288/20,hf://huggan/wikiart/1288/20,rembrandt,kmeans,0.703247,0.796055,41.655825,0.870589,0.042137,0.950454
+art_nouveau,hf://huggan/wikiart/1292/19,hf://huggan/wikiart/1292/19,raphael-kirchner,kmeans,0.680087,0.637527,42.690771,0.541176,0.000591,1.0
+baroque,hf://huggan/wikiart/1294/20,hf://huggan/wikiart/1294/20,rembrandt,kmeans,0.15072,0.647251,41.42085,0.490196,0.001885,1.0
+baroque,hf://huggan/wikiart/1299/20,hf://huggan/wikiart/1299/20,rembrandt,kmeans,0.207018,0.379339,30.587093,0.335294,0.00225,1.0
+art_nouveau,hf://huggan/wikiart/1302/14,hf://huggan/wikiart/1302/14,nicholas-roerich,kmeans,0.275752,0.885011,231.452699,0.52549,0.441644,0.23375
+art_nouveau,hf://huggan/wikiart/1305/14,hf://huggan/wikiart/1305/14,nicholas-roerich,kmeans,0.380159,0.777623,45.819647,0.07451,0.000157,1.0
+baroque,hf://huggan/wikiart/1309/20,hf://huggan/wikiart/1309/20,rembrandt,kmeans,0.151954,0.540717,77.341632,0.805883,0.211946,0.39232
+baroque,hf://huggan/wikiart/1364/20,hf://huggan/wikiart/1364/20,rembrandt,kmeans,0.171307,0.241973,356.820808,0.541177,0.078489,1.0
+art_nouveau,hf://huggan/wikiart/1365/14,hf://huggan/wikiart/1365/14,nicholas-roerich,kmeans,0.127196,0.708583,56.823951,0.529412,0.001947,1.0
+art_nouveau,hf://huggan/wikiart/1378/19,hf://huggan/wikiart/1378/19,raphael-kirchner,kmeans,0.418589,0.555506,17.793351,0.443137,0.085796,1.0
+art_nouveau,hf://huggan/wikiart/1381/14,hf://huggan/wikiart/1381/14,nicholas-roerich,kmeans,0.516181,0.545312,44.938943,0.815686,0.013152,1.0
+art_nouveau,hf://huggan/wikiart/1387/14,hf://huggan/wikiart/1387/14,nicholas-roerich,kmeans,0.213298,0.887304,346.530819,0.403922,0.142327,1.0
+art_nouveau,hf://huggan/wikiart/1401/14,hf://huggan/wikiart/1401/14,nicholas-roerich,kmeans,0.12949,0.243045,72.264332,0.433333,0.304683,0.845901
+art_nouveau,hf://huggan/wikiart/1403/19,hf://huggan/wikiart/1403/19,raphael-kirchner,kmeans,0.679028,0.805487,37.128991,0.758823,0.018877,0.982705
+art_nouveau,hf://huggan/wikiart/1410/1,hf://huggan/wikiart/1410/1,boris-kustodiev,kmeans,0.284991,0.558026,113.36842,0.543137,0.332014,0.279846
+art_nouveau,hf://huggan/wikiart/1428/1,hf://huggan/wikiart/1428/1,boris-kustodiev,kmeans,0.287688,0.804574,39.457279,0.105883,0.007196,1.0
+baroque,hf://huggan/wikiart/1431/20,hf://huggan/wikiart/1431/20,rembrandt,kmeans,0.0,0.705715,0.0,0.764706,0.0,1.0
+art_nouveau,hf://huggan/wikiart/1444/19,hf://huggan/wikiart/1444/19,raphael-kirchner,kmeans,0.296468,0.4814,37.310423,0.462745,0.026193,0.96272
+art_nouveau,hf://huggan/wikiart/1448/19,hf://huggan/wikiart/1448/19,raphael-kirchner,kmeans,0.568615,0.718687,47.749354,0.821568,0.013634,0.924555
+baroque,hf://huggan/wikiart/1484/20,hf://huggan/wikiart/1484/20,rembrandt,kmeans,0.120481,0.337397,5.975463,0.45098,0.01035,1.0
+art_nouveau,hf://huggan/wikiart/1487/14,hf://huggan/wikiart/1487/14,nicholas-roerich,kmeans,0.163604,0.708312,79.813501,0.760784,0.434142,0.348829
+art_nouveau,hf://huggan/wikiart/1495/1,hf://huggan/wikiart/1495/1,boris-kustodiev,kmeans,0.10396,0.617631,12.341382,0.662745,0.008069,1.0
+art_nouveau,hf://huggan/wikiart/1496/19,hf://huggan/wikiart/1496/19,raphael-kirchner,kmeans,0.498168,0.626132,42.186298,0.731373,0.000748,1.0
+art_nouveau,hf://huggan/wikiart/1499/14,hf://huggan/wikiart/1499/14,nicholas-roerich,kmeans,0.074383,0.797972,261.443287,0.813725,0.076476,0.063087
+baroque,hf://huggan/wikiart/1501/20,hf://huggan/wikiart/1501/20,rembrandt,kmeans,0.077106,0.745333,79.551922,0.635294,0.156583,0.801724
+art_nouveau,hf://huggan/wikiart/1503/14,hf://huggan/wikiart/1503/14,nicholas-roerich,kmeans,0.482984,0.763733,51.460018,0.245098,0.347372,0.82156
+art_nouveau,hf://huggan/wikiart/1513/1,hf://huggan/wikiart/1513/1,boris-kustodiev,kmeans,0.337795,0.704519,80.696045,0.4,0.339829,0.251283
+art_nouveau,hf://huggan/wikiart/1519/19,hf://huggan/wikiart/1519/19,raphael-kirchner,kmeans,0.468323,0.734504,45.990318,0.662745,0.002896,1.0
+art_nouveau,hf://huggan/wikiart/1523/19,hf://huggan/wikiart/1523/19,raphael-kirchner,kmeans,0.428678,0.660874,46.814439,0.578431,0.015144,1.0
+art_nouveau,hf://huggan/wikiart/1544/1,hf://huggan/wikiart/1544/1,boris-kustodiev,kmeans,0.242466,0.385831,137.260157,0.772549,0.249667,0.093184
+art_nouveau,hf://huggan/wikiart/1547/14,hf://huggan/wikiart/1547/14,nicholas-roerich,kmeans,0.479234,0.291386,353.059531,0.496079,0.719608,0.627943
+baroque,hf://huggan/wikiart/1558/20,hf://huggan/wikiart/1558/20,rembrandt,kmeans,0.306329,0.764062,35.315847,0.280392,0.000913,1.0
+art_nouveau,hf://huggan/wikiart/1567/15,hf://huggan/wikiart/1567/15,pablo-picasso,kmeans,0.420842,0.431621,59.382942,0.533333,0.257658,0.813182
+baroque,hf://huggan/wikiart/1577/20,hf://huggan/wikiart/1577/20,rembrandt,kmeans,0.465906,0.663366,40.621197,0.452941,0.000149,1.0
+baroque,hf://huggan/wikiart/1579/20,hf://huggan/wikiart/1579/20,rembrandt,kmeans,0.171373,0.10723,125.743659,0.409804,0.770191,0.486154
+art_nouveau,hf://huggan/wikiart/1591/19,hf://huggan/wikiart/1591/19,raphael-kirchner,kmeans,0.321656,0.723897,39.281253,0.370589,0.045078,0.982402
+art_nouveau,hf://huggan/wikiart/1594/19,hf://huggan/wikiart/1594/19,raphael-kirchner,kmeans,0.21506,0.698642,43.632188,0.186275,0.002341,1.0
+art_nouveau,hf://huggan/wikiart/1596/14,hf://huggan/wikiart/1596/14,nicholas-roerich,kmeans,0.447824,0.257089,29.865427,0.660784,0.005902,1.0
+art_nouveau,hf://huggan/wikiart/1598/14,hf://huggan/wikiart/1598/14,nicholas-roerich,kmeans,0.480611,0.920756,38.273015,0.247059,0.004308,1.0
+baroque,hf://huggan/wikiart/1601/20,hf://huggan/wikiart/1601/20,rembrandt,kmeans,0.340233,0.82786,34.354638,0.766667,0.013906,1.0
+art_nouveau,hf://huggan/wikiart/1608/19,hf://huggan/wikiart/1608/19,raphael-kirchner,kmeans,0.397814,0.542446,27.737423,0.786275,0.051309,0.972836
+art_nouveau,hf://huggan/wikiart/1613/19,hf://huggan/wikiart/1613/19,raphael-kirchner,kmeans,0.705359,0.696454,41.823954,0.794118,0.005562,1.0
+baroque,hf://huggan/wikiart/1614/20,hf://huggan/wikiart/1614/20,rembrandt,kmeans,0.430509,0.768159,40.216026,0.656862,8.4e-05,1.0
+art_nouveau,hf://huggan/wikiart/1616/19,hf://huggan/wikiart/1616/19,raphael-kirchner,kmeans,0.771982,0.820707,41.1165,0.713726,0.001846,1.0
+art_nouveau,hf://huggan/wikiart/1619/1,hf://huggan/wikiart/1619/1,boris-kustodiev,kmeans,0.252726,0.601217,29.878463,0.541176,0.009508,1.0
+art_nouveau,hf://huggan/wikiart/1624/19,hf://huggan/wikiart/1624/19,raphael-kirchner,kmeans,0.532173,0.754718,54.052837,0.586274,0.11099,0.931676
+art_nouveau,hf://huggan/wikiart/1633/14,hf://huggan/wikiart/1633/14,nicholas-roerich,kmeans,0.096389,0.757025,211.954403,0.592157,0.000929,0.0
+art_nouveau,hf://huggan/wikiart/1641/19,hf://huggan/wikiart/1641/19,raphael-kirchner,kmeans,0.224787,0.811447,76.037041,0.611764,0.153177,0.429572
+art_nouveau,hf://huggan/wikiart/1643/19,hf://huggan/wikiart/1643/19,raphael-kirchner,kmeans,0.282072,0.626971,43.364253,0.507843,0.064502,0.959756
+art_nouveau,hf://huggan/wikiart/1655/19,hf://huggan/wikiart/1655/19,raphael-kirchner,kmeans,0.259626,0.374866,100.38017,0.721569,0.146412,0.165924
+art_nouveau,hf://huggan/wikiart/1668/1,hf://huggan/wikiart/1668/1,boris-kustodiev,kmeans,0.363285,0.428393,37.102817,0.635294,0.941745,0.414992
+art_nouveau,hf://huggan/wikiart/1670/14,hf://huggan/wikiart/1670/14,nicholas-roerich,kmeans,0.278265,0.565794,39.198243,0.519608,0.013902,1.0
+art_nouveau,hf://huggan/wikiart/1682/14,hf://huggan/wikiart/1682/14,nicholas-roerich,kmeans,0.105835,0.790383,86.664426,0.092157,0.009892,0.0
+baroque,hf://huggan/wikiart/1688/20,hf://huggan/wikiart/1688/20,rembrandt,kmeans,0.263829,0.394587,22.079768,0.682353,0.040922,1.0
+art_nouveau,hf://huggan/wikiart/1694/14,hf://huggan/wikiart/1694/14,nicholas-roerich,kmeans,0.397744,0.86691,225.037453,0.460784,0.379456,0.190563
+art_nouveau,hf://huggan/wikiart/1708/1,hf://huggan/wikiart/1708/1,boris-kustodiev,kmeans,0.268658,0.695054,184.189791,0.454902,0.390736,0.133199
+baroque,hf://huggan/wikiart/1710/20,hf://huggan/wikiart/1710/20,rembrandt,kmeans,0.156996,0.17916,45.81772,0.476471,0.005137,1.0
+art_nouveau,hf://huggan/wikiart/1712/19,hf://huggan/wikiart/1712/19,raphael-kirchner,kmeans,0.323321,0.567799,61.761585,0.529412,0.050532,0.42734
+art_nouveau,hf://huggan/wikiart/1717/14,hf://huggan/wikiart/1717/14,nicholas-roerich,kmeans,0.14955,0.797281,215.901145,0.554902,0.004964,0.0
+art_nouveau,hf://huggan/wikiart/1742/19,hf://huggan/wikiart/1742/19,raphael-kirchner,kmeans,0.486328,0.572659,37.467273,0.84902,0.058402,0.956096
+art_nouveau,hf://huggan/wikiart/1759/1,hf://huggan/wikiart/1759/1,boris-kustodiev,kmeans,0.299866,0.647559,137.055615,0.809804,0.378497,0.164524
+baroque,hf://huggan/wikiart/1771/20,hf://huggan/wikiart/1771/20,rembrandt,kmeans,0.467147,0.146131,42.267573,0.901961,0.005091,1.0
+art_nouveau,hf://huggan/wikiart/1779/14,hf://huggan/wikiart/1779/14,nicholas-roerich,kmeans,0.188991,0.456596,287.029496,0.113726,0.202967,0.174967
+art_nouveau,hf://huggan/wikiart/1783/14,hf://huggan/wikiart/1783/14,nicholas-roerich,kmeans,0.545148,0.941234,218.220927,0.486275,0.02912,0.0
+baroque,hf://huggan/wikiart/1795/20,hf://huggan/wikiart/1795/20,rembrandt,kmeans,0.304435,0.370237,23.960964,0.554902,0.009186,1.0
+art_nouveau,hf://huggan/wikiart/1802/14,hf://huggan/wikiart/1802/14,nicholas-roerich,kmeans,0.498924,0.385217,356.987216,0.352941,0.009662,1.0
+baroque,hf://huggan/wikiart/1804/20,hf://huggan/wikiart/1804/20,rembrandt,kmeans,0.238966,0.788128,42.689984,0.27451,0.000615,1.0
+art_nouveau,hf://huggan/wikiart/1808/14,hf://huggan/wikiart/1808/14,nicholas-roerich,kmeans,0.111973,0.699652,267.262141,0.568627,0.017022,0.0
+baroque,hf://huggan/wikiart/1809/20,hf://huggan/wikiart/1809/20,rembrandt,kmeans,0.191319,0.17879,28.074694,0.703922,0.009195,1.0
+baroque,hf://huggan/wikiart/1823/20,hf://huggan/wikiart/1823/20,rembrandt,kmeans,0.467457,0.613012,33.675535,0.609804,0.000375,1.0
+baroque,hf://huggan/wikiart/1830/20,hf://huggan/wikiart/1830/20,rembrandt,kmeans,0.144896,0.729542,53.308301,0.672549,0.003534,1.0
+baroque,hf://huggan/wikiart/1843/20,hf://huggan/wikiart/1843/20,rembrandt,kmeans,0.4141,0.788744,36.897459,0.201961,0.006584,1.0
+art_nouveau,hf://huggan/wikiart/1849/19,hf://huggan/wikiart/1849/19,raphael-kirchner,kmeans,0.109894,0.52203,61.156616,0.584313,0.007856,1.0
+art_nouveau,hf://huggan/wikiart/1850/19,hf://huggan/wikiart/1850/19,raphael-kirchner,kmeans,0.621854,0.725103,33.806479,0.678431,0.021232,1.0
+art_nouveau,hf://huggan/wikiart/1855/19,hf://huggan/wikiart/1855/19,raphael-kirchner,kmeans,0.335634,0.656854,37.355154,0.468628,0.032389,1.0
+baroque,hf://huggan/wikiart/1880/20,hf://huggan/wikiart/1880/20,rembrandt,kmeans,0.163576,0.388485,67.618952,0.582353,0.011931,0.587946
+art_nouveau,hf://huggan/wikiart/1882/1,hf://huggan/wikiart/1882/1,boris-kustodiev,kmeans,0.362395,0.486115,40.90829,0.523529,0.198456,0.83246
+art_nouveau,hf://huggan/wikiart/1899/19,hf://huggan/wikiart/1899/19,raphael-kirchner,kmeans,0.327772,0.576899,42.028675,0.401961,5e-06,1.0
+baroque,hf://huggan/wikiart/1907/20,hf://huggan/wikiart/1907/20,rembrandt,kmeans,0.161816,0.801509,60.024491,0.694117,0.068377,0.876409
+art_nouveau,hf://huggan/wikiart/1914/14,hf://huggan/wikiart/1914/14,nicholas-roerich,kmeans,0.311956,0.48485,217.176935,0.737255,0.007246,0.0
+baroque,hf://huggan/wikiart/1934/20,hf://huggan/wikiart/1934/20,rembrandt,kmeans,0.065204,0.716502,210.328964,0.847059,0.002652,0.0
+art_nouveau,hf://huggan/wikiart/1938/19,hf://huggan/wikiart/1938/19,raphael-kirchner,kmeans,0.302075,0.784714,5.523709,0.831373,0.00028,1.0
+art_nouveau,hf://huggan/wikiart/1940/19,hf://huggan/wikiart/1940/19,raphael-kirchner,kmeans,0.394846,0.839475,52.126513,0.866667,0.006425,1.0
+art_nouveau,hf://huggan/wikiart/1941/1,hf://huggan/wikiart/1941/1,boris-kustodiev,kmeans,0.364577,0.388724,212.3035,0.576471,0.589555,0.304562
+baroque,hf://huggan/wikiart/1945/20,hf://huggan/wikiart/1945/20,rembrandt,kmeans,0.184132,0.682146,39.733445,0.525491,0.001603,1.0
+baroque,hf://huggan/wikiart/1950/20,hf://huggan/wikiart/1950/20,rembrandt,kmeans,0.355168,0.392007,24.676379,0.57451,0.009717,1.0
+art_nouveau,hf://huggan/wikiart/2018/19,hf://huggan/wikiart/2018/19,raphael-kirchner,kmeans,0.471579,0.670376,39.26558,0.580392,0.002522,1.0
+art_nouveau,hf://huggan/wikiart/2041/14,hf://huggan/wikiart/2041/14,nicholas-roerich,kmeans,0.634569,0.442127,34.881512,0.739216,0.015178,1.0
+baroque,hf://huggan/wikiart/2047/20,hf://huggan/wikiart/2047/20,rembrandt,kmeans,0.163581,0.820824,165.565013,0.813725,0.342397,0.253998
+art_nouveau,hf://huggan/wikiart/2053/14,hf://huggan/wikiart/2053/14,nicholas-roerich,kmeans,0.442885,0.813942,209.941571,0.586275,0.093844,0.034905
+baroque,hf://huggan/wikiart/2056/20,hf://huggan/wikiart/2056/20,rembrandt,kmeans,0.156111,0.146127,282.477763,0.737255,0.361902,0.280315
+art_nouveau,hf://huggan/wikiart/2065/14,hf://huggan/wikiart/2065/14,nicholas-roerich,kmeans,0.19468,0.444692,34.554369,0.627451,0.003642,1.0
+art_nouveau,hf://huggan/wikiart/2069/14,hf://huggan/wikiart/2069/14,nicholas-roerich,kmeans,0.400097,0.900742,77.640061,0.368628,0.483268,0.020239
+baroque,hf://huggan/wikiart/2070/20,hf://huggan/wikiart/2070/20,rembrandt,kmeans,0.24079,0.194095,50.064598,0.796078,0.03667,1.0
+baroque,hf://huggan/wikiart/2072/20,hf://huggan/wikiart/2072/20,rembrandt,kmeans,0.199299,0.813291,53.291973,0.715687,0.304954,0.832959
+art_nouveau,hf://huggan/wikiart/2073/14,hf://huggan/wikiart/2073/14,nicholas-roerich,kmeans,0.510492,0.870065,199.646925,0.719608,0.465199,0.201442
+art_nouveau,hf://huggan/wikiart/2074/14,hf://huggan/wikiart/2074/14,nicholas-roerich,kmeans,0.232176,0.444483,36.262588,0.443137,0.003414,1.0
+art_nouveau,hf://huggan/wikiart/2081/19,hf://huggan/wikiart/2081/19,raphael-kirchner,kmeans,0.57974,0.409584,20.661277,0.54902,0.041215,1.0
+baroque,hf://huggan/wikiart/2093/20,hf://huggan/wikiart/2093/20,rembrandt,kmeans,0.384928,0.432886,29.577726,0.69804,0.003412,1.0
+baroque,hf://huggan/wikiart/2094/20,hf://huggan/wikiart/2094/20,rembrandt,kmeans,0.129372,0.793765,65.956126,0.643137,0.124062,0.873266
+baroque,hf://huggan/wikiart/2103/20,hf://huggan/wikiart/2103/20,rembrandt,kmeans,0.285757,0.704845,35.918675,0.498039,0.002448,1.0
+baroque,hf://huggan/wikiart/2141/20,hf://huggan/wikiart/2141/20,rembrandt,kmeans,0.495593,0.649123,49.156144,0.733333,0.066071,0.958412
+baroque,hf://huggan/wikiart/2179/20,hf://huggan/wikiart/2179/20,rembrandt,kmeans,0.29575,0.137863,293.25798,0.701961,0.349681,0.351034
+baroque,hf://huggan/wikiart/2207/20,hf://huggan/wikiart/2207/20,rembrandt,kmeans,0.408983,0.844167,33.471132,0.523529,0.000473,1.0
+baroque,hf://huggan/wikiart/2225/20,hf://huggan/wikiart/2225/20,rembrandt,kmeans,0.325324,0.542841,5.586845,0.688236,0.315262,0.809427
+baroque,hf://huggan/wikiart/2339/20,hf://huggan/wikiart/2339/20,rembrandt,kmeans,0.094456,0.851729,121.19065,0.625491,0.187067,0.018052
+baroque,hf://huggan/wikiart/2360/20,hf://huggan/wikiart/2360/20,rembrandt,kmeans,0.307004,0.435614,20.899378,0.343137,0.002444,1.0
+baroque,hf://huggan/wikiart/2376/20,hf://huggan/wikiart/2376/20,rembrandt,kmeans,0.150814,0.737004,45.295159,0.641176,5.7e-05,1.0
+baroque,hf://huggan/wikiart/2377/20,hf://huggan/wikiart/2377/20,rembrandt,kmeans,0.26627,0.222684,55.577325,0.686275,0.038856,1.0
+baroque,hf://huggan/wikiart/2378/20,hf://huggan/wikiart/2378/20,rembrandt,kmeans,0.569993,0.850751,56.795115,0.752941,0.022007,1.0
+baroque,hf://huggan/wikiart/2379/20,hf://huggan/wikiart/2379/20,rembrandt,kmeans,0.302193,0.161733,33.170121,0.903921,0.008257,1.0
+baroque,hf://huggan/wikiart/2381/20,hf://huggan/wikiart/2381/20,rembrandt,kmeans,0.060722,0.362528,55.750656,0.707843,0.003859,1.0
+baroque,hf://huggan/wikiart/2400/20,hf://huggan/wikiart/2400/20,rembrandt,kmeans,0.045111,0.454952,242.995051,0.817648,0.629834,0.3116
+baroque,hf://huggan/wikiart/2415/20,hf://huggan/wikiart/2415/20,rembrandt,kmeans,0.488396,0.173312,3.684837,0.568628,0.025728,1.0
+baroque,hf://huggan/wikiart/2418/20,hf://huggan/wikiart/2418/20,rembrandt,kmeans,0.08994,0.700284,300.398947,0.678431,0.164834,0.0
+baroque,hf://huggan/wikiart/2422/20,hf://huggan/wikiart/2422/20,rembrandt,kmeans,0.236011,0.140258,290.375722,0.678432,0.453676,0.379077
+baroque,hf://huggan/wikiart/2434/20,hf://huggan/wikiart/2434/20,rembrandt,kmeans,0.059988,0.748814,214.171376,0.896078,0.01246,0.0
+baroque,hf://huggan/wikiart/2461/20,hf://huggan/wikiart/2461/20,rembrandt,kmeans,0.171029,0.68245,42.366046,0.539215,0.003452,1.0
+baroque,hf://huggan/wikiart/2466/20,hf://huggan/wikiart/2466/20,rembrandt,kmeans,0.164401,0.676196,43.277065,0.523529,0.005642,1.0
+baroque,hf://huggan/wikiart/2484/20,hf://huggan/wikiart/2484/20,rembrandt,kmeans,0.138651,0.70383,42.182081,0.668627,0.001592,1.0
+baroque,hf://huggan/wikiart/2485/20,hf://huggan/wikiart/2485/20,rembrandt,kmeans,0.219734,0.706904,49.541329,0.686275,0.070181,0.835101
+baroque,hf://huggan/wikiart/2538/20,hf://huggan/wikiart/2538/20,rembrandt,kmeans,0.201955,0.598212,3.837108,0.572549,0.092897,1.0
+baroque,hf://huggan/wikiart/2557/20,hf://huggan/wikiart/2557/20,rembrandt,kmeans,0.577021,0.097653,41.904242,0.441176,0.009708,1.0
+baroque,hf://huggan/wikiart/2559/20,hf://huggan/wikiart/2559/20,rembrandt,kmeans,0.110191,0.863205,19.706232,0.6,0.006457,1.0
+baroque,hf://huggan/wikiart/2610/20,hf://huggan/wikiart/2610/20,rembrandt,kmeans,0.16319,0.808712,54.250053,0.719607,0.000813,1.0
+baroque,hf://huggan/wikiart/2611/20,hf://huggan/wikiart/2611/20,rembrandt,kmeans,0.177289,0.589202,47.465121,0.627451,0.011384,1.0
+baroque,hf://huggan/wikiart/2617/20,hf://huggan/wikiart/2617/20,rembrandt,kmeans,0.264566,0.604708,40.015876,0.713726,0.000935,1.0
+baroque,hf://huggan/wikiart/2628/20,hf://huggan/wikiart/2628/20,rembrandt,kmeans,0.105355,0.864072,40.475017,0.37451,0.000424,1.0
+baroque,hf://huggan/wikiart/2647/20,hf://huggan/wikiart/2647/20,rembrandt,kmeans,0.457511,0.282171,17.499986,0.7,0.024006,1.0
+baroque,hf://huggan/wikiart/2681/20,hf://huggan/wikiart/2681/20,rembrandt,kmeans,0.188146,0.16808,53.360149,0.611765,0.010788,1.0
+baroque,hf://huggan/wikiart/2707/20,hf://huggan/wikiart/2707/20,rembrandt,kmeans,0.064471,0.810812,30.722431,0.790196,0.003288,1.0
+baroque,hf://huggan/wikiart/2766/20,hf://huggan/wikiart/2766/20,rembrandt,kmeans,0.137537,0.771667,47.892845,0.660784,0.000529,1.0
+baroque,hf://huggan/wikiart/2806/20,hf://huggan/wikiart/2806/20,rembrandt,kmeans,0.28408,0.671133,39.599267,0.519608,0.00069,1.0
+baroque,hf://huggan/wikiart/2905/20,hf://huggan/wikiart/2905/20,rembrandt,kmeans,0.393454,0.258247,26.539714,0.601961,0.025049,1.0
+baroque,hf://huggan/wikiart/2907/20,hf://huggan/wikiart/2907/20,rembrandt,kmeans,0.059111,0.245016,55.869842,0.358823,0.017864,1.0
+baroque,hf://huggan/wikiart/2937/20,hf://huggan/wikiart/2937/20,rembrandt,kmeans,0.362968,0.765674,37.782066,0.633333,0.000519,1.0
+baroque,hf://huggan/wikiart/2978/20,hf://huggan/wikiart/2978/20,rembrandt,kmeans,0.146368,0.635624,48.055251,0.562745,0.010057,1.0
+baroque,hf://huggan/wikiart/3011/20,hf://huggan/wikiart/3011/20,rembrandt,kmeans,0.330613,0.409612,135.441696,0.609804,0.563406,0.372579
+baroque,hf://huggan/wikiart/3039/20,hf://huggan/wikiart/3039/20,rembrandt,kmeans,0.193956,0.807213,51.095695,0.698039,0.034111,0.867049
+baroque,hf://huggan/wikiart/3058/20,hf://huggan/wikiart/3058/20,rembrandt,kmeans,0.197293,0.786951,59.376782,0.611764,0.130382,0.87979
+baroque,hf://huggan/wikiart/3072/20,hf://huggan/wikiart/3072/20,rembrandt,kmeans,0.164684,0.124685,10.832543,0.376471,0.005299,1.0
+baroque,hf://huggan/wikiart/3112/20,hf://huggan/wikiart/3112/20,rembrandt,kmeans,0.125403,0.529051,27.513555,0.692157,0.640267,0.787096
+baroque,hf://huggan/wikiart/3182/20,hf://huggan/wikiart/3182/20,rembrandt,kmeans,0.132618,0.919408,192.535817,0.480392,0.09377,0.015845
+baroque,hf://huggan/wikiart/3188/20,hf://huggan/wikiart/3188/20,rembrandt,kmeans,0.190716,0.69498,42.571737,0.578431,0.001471,1.0
+baroque,hf://huggan/wikiart/3190/20,hf://huggan/wikiart/3190/20,rembrandt,kmeans,0.250754,0.633189,129.225468,0.860784,0.617755,0.483499
+baroque,hf://huggan/wikiart/3213/20,hf://huggan/wikiart/3213/20,rembrandt,kmeans,0.158522,0.484463,57.391484,0.580392,0.011021,1.0
+baroque,hf://huggan/wikiart/3309/20,hf://huggan/wikiart/3309/20,rembrandt,kmeans,0.522915,0.305546,27.847482,0.719608,0.014188,1.0
+baroque,hf://huggan/wikiart/3332/20,hf://huggan/wikiart/3332/20,rembrandt,kmeans,0.085919,0.852568,54.255815,0.707843,0.004348,1.0
+baroque,hf://huggan/wikiart/3354/20,hf://huggan/wikiart/3354/20,rembrandt,kmeans,0.136996,0.597448,42.78459,0.468627,0.005138,1.0
+baroque,hf://huggan/wikiart/3393/20,hf://huggan/wikiart/3393/20,rembrandt,kmeans,0.41672,0.637389,40.966489,0.427451,3.4e-05,1.0
+baroque,hf://huggan/wikiart/3420/20,hf://huggan/wikiart/3420/20,rembrandt,kmeans,0.166939,0.630883,43.706278,0.535294,0.015132,1.0
+baroque,hf://huggan/wikiart/3422/20,hf://huggan/wikiart/3422/20,rembrandt,kmeans,0.527733,0.166362,50.65443,0.505883,0.011039,1.0
+baroque,hf://huggan/wikiart/3497/20,hf://huggan/wikiart/3497/20,rembrandt,kmeans,0.241856,0.284475,15.740532,0.458824,0.011994,1.0
+baroque,hf://huggan/wikiart/3524/20,hf://huggan/wikiart/3524/20,rembrandt,kmeans,0.118527,0.534017,46.653586,0.833333,0.026483,1.0
+baroque,hf://huggan/wikiart/3549/20,hf://huggan/wikiart/3549/20,rembrandt,kmeans,0.067325,0.737985,177.804995,0.82549,0.39143,0.234342
+baroque,hf://huggan/wikiart/3556/20,hf://huggan/wikiart/3556/20,rembrandt,kmeans,0.24459,0.119768,40.163069,0.598039,0.001714,1.0
+baroque,hf://huggan/wikiart/3588/20,hf://huggan/wikiart/3588/20,rembrandt,kmeans,0.137233,0.092257,280.506727,0.801961,0.204265,0.158415
+baroque,hf://huggan/wikiart/3625/20,hf://huggan/wikiart/3625/20,rembrandt,kmeans,0.257522,0.174761,89.742714,0.529412,0.244744,0.384488
+baroque,hf://huggan/wikiart/3671/20,hf://huggan/wikiart/3671/20,rembrandt,kmeans,0.142717,0.517084,43.265973,0.678432,0.089773,1.0
+baroque,hf://huggan/wikiart/3672/20,hf://huggan/wikiart/3672/20,rembrandt,kmeans,0.053042,0.32925,65.584728,0.668627,0.08901,0.907187
+baroque,hf://huggan/wikiart/3682/20,hf://huggan/wikiart/3682/20,rembrandt,kmeans,0.484697,0.111681,61.189732,0.580392,0.007195,1.0
+baroque,hf://huggan/wikiart/3697/20,hf://huggan/wikiart/3697/20,rembrandt,kmeans,0.42552,0.277347,31.861951,0.498039,0.00458,1.0
+baroque,hf://huggan/wikiart/3708/20,hf://huggan/wikiart/3708/20,rembrandt,kmeans,0.218144,0.707923,42.678355,0.611764,0.003533,1.0
+baroque,hf://huggan/wikiart/3710/20,hf://huggan/wikiart/3710/20,rembrandt,kmeans,0.104914,0.753975,68.204878,0.578432,0.04576,0.764641
+baroque,hf://huggan/wikiart/3764/20,hf://huggan/wikiart/3764/20,rembrandt,kmeans,0.412252,0.192547,18.006199,0.439215,0.008642,1.0
+baroque,hf://huggan/wikiart/3804/20,hf://huggan/wikiart/3804/20,rembrandt,kmeans,0.385164,0.424553,67.424294,0.743137,0.117275,0.517741
+baroque,hf://huggan/wikiart/3813/20,hf://huggan/wikiart/3813/20,rembrandt,kmeans,0.263854,0.216958,24.480552,0.590196,0.006037,1.0
+pop_art,hf://huggan/wikiart/19109/0,hf://huggan/wikiart/19109/0,Unknown Artist,kmeans,0.337426,0.430755,14.925438,0.645098,0.481548,0.720315
+pop_art,hf://huggan/wikiart/19153/52,hf://huggan/wikiart/19153/52,andy-warhol,kmeans,0.321387,0.846426,47.104135,0.701961,0.024743,1.0
+pop_art,hf://huggan/wikiart/19167/0,hf://huggan/wikiart/19167/0,Unknown Artist,kmeans,0.510877,0.541211,139.177094,0.572549,0.507582,0.283548
+pop_art,hf://huggan/wikiart/19273/52,hf://huggan/wikiart/19273/52,andy-warhol,kmeans,0.254624,0.41956,212.922096,0.739216,0.187364,0.09292
+pop_art,hf://huggan/wikiart/19289/0,hf://huggan/wikiart/19289/0,Unknown Artist,kmeans,0.472453,0.438565,353.895194,0.327451,0.313608,0.796889
+pop_art,hf://huggan/wikiart/19304/0,hf://huggan/wikiart/19304/0,Unknown Artist,kmeans,0.109923,0.350743,144.863742,0.262745,0.421637,0.0
+pop_art,hf://huggan/wikiart/19339/52,hf://huggan/wikiart/19339/52,andy-warhol,kmeans,0.428742,0.311529,27.500155,0.525491,0.050061,1.0
+pop_art,hf://huggan/wikiart/19354/0,hf://huggan/wikiart/19354/0,Unknown Artist,kmeans,0.20457,0.485885,93.278406,0.464706,0.628249,0.414293
+pop_art,hf://huggan/wikiart/19442/52,hf://huggan/wikiart/19442/52,andy-warhol,kmeans,0.86686,0.350956,189.782677,0.413725,0.094774,0.036684
+pop_art,hf://huggan/wikiart/19463/0,hf://huggan/wikiart/19463/0,Unknown Artist,kmeans,0.785997,0.288822,145.479637,0.205882,0.124106,0.046629
+pop_art,hf://huggan/wikiart/19520/0,hf://huggan/wikiart/19520/0,Unknown Artist,kmeans,0.365333,0.328673,136.633944,0.315687,0.545044,0.295585
+pop_art,hf://huggan/wikiart/19564/0,hf://huggan/wikiart/19564/0,Unknown Artist,kmeans,0.054756,0.574399,40.154456,0.619608,0.001516,1.0
+pop_art,hf://huggan/wikiart/19781/0,hf://huggan/wikiart/19781/0,Unknown Artist,kmeans,0.549013,0.490752,24.199195,0.635294,0.046748,1.0
+pop_art,hf://huggan/wikiart/19946/0,hf://huggan/wikiart/19946/0,Unknown Artist,kmeans,0.291877,0.526218,7.738343,0.758824,0.015973,1.0
+pop_art,hf://huggan/wikiart/20333/52,hf://huggan/wikiart/20333/52,andy-warhol,kmeans,0.308421,0.385485,105.528424,0.527451,0.589201,0.319399
+pop_art,hf://huggan/wikiart/20532/0,hf://huggan/wikiart/20532/0,Unknown Artist,kmeans,0.262816,0.680129,138.743634,0.87451,0.290058,0.279798
+pop_art,hf://huggan/wikiart/20644/0,hf://huggan/wikiart/20644/0,Unknown Artist,kmeans,0.382202,0.59257,21.481963,0.694117,0.088363,1.0
+pop_art,hf://huggan/wikiart/20972/0,hf://huggan/wikiart/20972/0,Unknown Artist,kmeans,0.118448,0.68087,303.791681,0.8,0.490331,0.477795
+pop_art,hf://huggan/wikiart/21050/0,hf://huggan/wikiart/21050/0,Unknown Artist,kmeans,0.235002,0.321728,353.525712,0.656863,0.601823,0.308315
+pop_art,hf://huggan/wikiart/21067/0,hf://huggan/wikiart/21067/0,Unknown Artist,kmeans,0.316609,0.467284,29.727127,0.727451,0.00372,1.0
+pop_art,hf://huggan/wikiart/21229/0,hf://huggan/wikiart/21229/0,Unknown Artist,kmeans,0.218309,0.412864,185.525888,0.645098,0.680235,0.352342
+pop_art,hf://huggan/wikiart/21280/0,hf://huggan/wikiart/21280/0,Unknown Artist,kmeans,0.249596,0.439562,5.992936,0.803921,0.314658,0.954536
+pop_art,hf://huggan/wikiart/21354/0,hf://huggan/wikiart/21354/0,Unknown Artist,kmeans,0.31343,0.301613,28.545702,0.596079,0.010175,1.0
+pop_art,hf://huggan/wikiart/21357/0,hf://huggan/wikiart/21357/0,Unknown Artist,kmeans,0.22499,0.657172,189.09518,0.421569,0.564491,0.10618
+pop_art,hf://huggan/wikiart/21521/52,hf://huggan/wikiart/21521/52,andy-warhol,kmeans,0.29913,0.689786,3.523395,0.809803,0.224464,0.937308
+pop_art,hf://huggan/wikiart/21537/0,hf://huggan/wikiart/21537/0,Unknown Artist,kmeans,0.307238,0.625759,53.767141,0.454902,0.628792,0.681653
+pop_art,hf://huggan/wikiart/21853/52,hf://huggan/wikiart/21853/52,andy-warhol,kmeans,0.630755,0.66745,69.36735,0.503922,0.523478,0.630531
+pop_art,hf://huggan/wikiart/21875/0,hf://huggan/wikiart/21875/0,Unknown Artist,kmeans,0.039213,0.563347,350.85065,0.584314,0.201568,0.54814
+pop_art,hf://huggan/wikiart/22004/0,hf://huggan/wikiart/22004/0,Unknown Artist,kmeans,0.063148,0.736358,225.854662,0.780393,0.476258,0.061422
+pop_art,hf://huggan/wikiart/22220/0,hf://huggan/wikiart/22220/0,Unknown Artist,kmeans,0.189102,0.506366,260.988482,0.272549,0.266211,0.064264
+pop_art,hf://huggan/wikiart/22232/52,hf://huggan/wikiart/22232/52,andy-warhol,kmeans,0.524564,0.535729,11.122368,0.619608,0.511272,0.770799
+pop_art,hf://huggan/wikiart/22318/0,hf://huggan/wikiart/22318/0,Unknown Artist,kmeans,0.288534,0.521807,76.203917,0.586275,0.388277,0.44653
+pop_art,hf://huggan/wikiart/22328/52,hf://huggan/wikiart/22328/52,andy-warhol,kmeans,0.186072,0.690618,62.153117,0.77451,0.207609,0.72206
+pop_art,hf://huggan/wikiart/22425/0,hf://huggan/wikiart/22425/0,Unknown Artist,kmeans,0.270188,0.182045,248.789935,0.370588,0.076403,0.0
+pop_art,hf://huggan/wikiart/22653/0,hf://huggan/wikiart/22653/0,Unknown Artist,kmeans,0.081471,0.611952,93.033026,0.358824,0.169342,0.18163
+pop_art,hf://huggan/wikiart/22673/0,hf://huggan/wikiart/22673/0,Unknown Artist,kmeans,0.601581,0.484174,61.727753,0.52353,0.897067,0.563423
+pop_art,hf://huggan/wikiart/22963/0,hf://huggan/wikiart/22963/0,Unknown Artist,kmeans,0.252389,0.444615,348.796944,0.717647,0.160731,0.625507
+pop_art,hf://huggan/wikiart/22996/52,hf://huggan/wikiart/22996/52,andy-warhol,kmeans,0.20499,0.408191,73.847962,0.813725,0.435856,0.264332
+pop_art,hf://huggan/wikiart/23068/0,hf://huggan/wikiart/23068/0,Unknown Artist,kmeans,0.473624,0.458209,12.815059,0.592157,0.182993,0.84134
+pop_art,hf://huggan/wikiart/23286/0,hf://huggan/wikiart/23286/0,Unknown Artist,kmeans,0.412928,0.744698,71.515631,0.337255,0.220637,0.401183
+pop_art,hf://huggan/wikiart/23462/52,hf://huggan/wikiart/23462/52,andy-warhol,kmeans,0.498874,0.753321,92.886429,0.829411,0.330509,0.297963
+pop_art,hf://huggan/wikiart/23504/52,hf://huggan/wikiart/23504/52,andy-warhol,kmeans,0.336025,0.40206,32.992306,0.301961,0.652937,0.536423
+pop_art,hf://huggan/wikiart/23526/0,hf://huggan/wikiart/23526/0,Unknown Artist,kmeans,0.091822,0.554258,282.823733,0.57451,0.434895,0.039403
+pop_art,hf://huggan/wikiart/23581/52,hf://huggan/wikiart/23581/52,andy-warhol,kmeans,0.308026,0.085911,24.265702,0.458823,0.006599,1.0
+pop_art,hf://huggan/wikiart/23629/0,hf://huggan/wikiart/23629/0,Unknown Artist,kmeans,0.094393,0.620901,46.166579,0.7,0.099191,0.962003
+pop_art,hf://huggan/wikiart/23682/0,hf://huggan/wikiart/23682/0,Unknown Artist,kmeans,0.596482,0.698786,58.034755,0.886274,0.193697,0.491961
+pop_art,hf://huggan/wikiart/23702/0,hf://huggan/wikiart/23702/0,Unknown Artist,kmeans,0.292054,0.532192,337.790898,0.676471,0.328704,0.521814
+pop_art,hf://huggan/wikiart/23783/0,hf://huggan/wikiart/23783/0,Unknown Artist,kmeans,0.283136,0.264804,300.612012,0.507844,0.256475,0.258294
+pop_art,hf://huggan/wikiart/23832/0,hf://huggan/wikiart/23832/0,Unknown Artist,kmeans,0.237106,0.396882,177.253167,0.562745,0.806186,0.238083
+pop_art,hf://huggan/wikiart/23936/0,hf://huggan/wikiart/23936/0,Unknown Artist,kmeans,0.836308,0.439059,17.66464,0.454902,0.328008,0.833917
+pop_art,hf://huggan/wikiart/24090/0,hf://huggan/wikiart/24090/0,Unknown Artist,kmeans,0.331772,0.653614,98.560774,0.839216,0.753578,0.537635
+pop_art,hf://huggan/wikiart/24237/0,hf://huggan/wikiart/24237/0,Unknown Artist,kmeans,0.139783,0.627617,38.53226,0.494118,0.626866,0.686567
+pop_art,hf://huggan/wikiart/24269/0,hf://huggan/wikiart/24269/0,Unknown Artist,kmeans,0.530193,0.712512,74.012838,0.682352,0.636305,0.506437
+pop_art,hf://huggan/wikiart/24391/0,hf://huggan/wikiart/24391/0,Unknown Artist,kmeans,0.097812,0.659184,174.110422,0.309804,0.440496,0.248686
+pop_art,hf://huggan/wikiart/24427/52,hf://huggan/wikiart/24427/52,andy-warhol,kmeans,0.230769,0.045816,52.189424,0.198039,0.402311,0.789747
+pop_art,hf://huggan/wikiart/24445/0,hf://huggan/wikiart/24445/0,Unknown Artist,kmeans,0.111375,0.718442,99.879173,0.717647,0.472653,0.061843
+pop_art,hf://huggan/wikiart/24471/0,hf://huggan/wikiart/24471/0,Unknown Artist,kmeans,0.412461,0.312622,18.604443,0.619608,0.107377,0.962934
+pop_art,hf://huggan/wikiart/24474/0,hf://huggan/wikiart/24474/0,Unknown Artist,kmeans,0.225653,0.473877,2.425898,0.509804,0.331158,0.800417
+pop_art,hf://huggan/wikiart/24624/0,hf://huggan/wikiart/24624/0,Unknown Artist,kmeans,0.308617,0.634118,71.255424,0.882353,0.236617,0.615209
+pop_art,hf://huggan/wikiart/24672/0,hf://huggan/wikiart/24672/0,Unknown Artist,kmeans,0.297547,0.457001,37.034179,0.421569,0.009567,1.0
+pop_art,hf://huggan/wikiart/24687/0,hf://huggan/wikiart/24687/0,Unknown Artist,kmeans,0.139916,0.57466,55.818726,0.313726,0.224018,0.784217
+pop_art,hf://huggan/wikiart/24688/0,hf://huggan/wikiart/24688/0,Unknown Artist,kmeans,0.114121,0.397846,66.260284,0.813725,0.119378,0.311614
+pop_art,hf://huggan/wikiart/24744/0,hf://huggan/wikiart/24744/0,Unknown Artist,kmeans,0.209784,0.367202,56.778074,0.849019,0.322081,0.787687
+pop_art,hf://huggan/wikiart/24779/52,hf://huggan/wikiart/24779/52,andy-warhol,kmeans,0.359279,0.625728,56.950168,0.792157,0.189499,0.661009
+pop_art,hf://huggan/wikiart/25031/0,hf://huggan/wikiart/25031/0,Unknown Artist,kmeans,0.380194,0.443321,196.973778,0.678431,0.165938,0.081343
+pop_art,hf://huggan/wikiart/25196/0,hf://huggan/wikiart/25196/0,Unknown Artist,kmeans,0.294629,0.395643,74.718463,0.807844,0.570721,0.65932
+pop_art,hf://huggan/wikiart/25359/0,hf://huggan/wikiart/25359/0,Unknown Artist,kmeans,0.646303,0.818695,41.640031,0.52353,0.024518,0.962799
+pop_art,hf://huggan/wikiart/25456/52,hf://huggan/wikiart/25456/52,andy-warhol,kmeans,0.394726,0.725192,26.152652,0.784313,0.058187,1.0
+pop_art,hf://huggan/wikiart/25551/0,hf://huggan/wikiart/25551/0,Unknown Artist,kmeans,0.377512,0.799475,6.349597,0.247058,0.715695,0.705399
+pop_art,hf://huggan/wikiart/25587/0,hf://huggan/wikiart/25587/0,Unknown Artist,kmeans,0.798776,0.667015,12.453463,0.482353,0.297232,0.877838
+pop_art,hf://huggan/wikiart/25609/0,hf://huggan/wikiart/25609/0,Unknown Artist,kmeans,0.586922,0.509489,33.210155,0.335294,0.00222,1.0
+pop_art,hf://huggan/wikiart/25664/52,hf://huggan/wikiart/25664/52,andy-warhol,kmeans,0.317162,0.463871,219.30351,0.603922,0.295073,0.120006
+pop_art,hf://huggan/wikiart/25803/0,hf://huggan/wikiart/25803/0,Unknown Artist,kmeans,0.524486,0.544341,200.631034,0.215686,0.574879,0.299602
+pop_art,hf://huggan/wikiart/25826/0,hf://huggan/wikiart/25826/0,Unknown Artist,kmeans,0.508753,0.580029,81.62745,0.84902,0.606749,0.56233
+pop_art,hf://huggan/wikiart/25887/0,hf://huggan/wikiart/25887/0,Unknown Artist,kmeans,0.582792,0.539919,20.015867,0.390197,0.26005,0.860545
+pop_art,hf://huggan/wikiart/25915/0,hf://huggan/wikiart/25915/0,Unknown Artist,kmeans,0.404471,0.407894,28.943218,0.466666,0.005106,1.0
+pop_art,hf://huggan/wikiart/26091/0,hf://huggan/wikiart/26091/0,Unknown Artist,kmeans,0.283184,0.547772,40.584887,0.764706,0.158644,0.941714
+pop_art,hf://huggan/wikiart/26132/0,hf://huggan/wikiart/26132/0,Unknown Artist,kmeans,0.544028,0.481699,27.156284,0.590196,0.015369,1.0
+pop_art,hf://huggan/wikiart/26148/0,hf://huggan/wikiart/26148/0,Unknown Artist,kmeans,0.275386,0.35624,31.981181,0.447059,0.147957,0.938859
+pop_art,hf://huggan/wikiart/26316/52,hf://huggan/wikiart/26316/52,andy-warhol,kmeans,0.259084,0.658345,190.29677,0.278431,0.381422,0.0794
+pop_art,hf://huggan/wikiart/26375/0,hf://huggan/wikiart/26375/0,Unknown Artist,kmeans,0.315594,0.320949,305.904558,0.786275,0.66992,0.464242
+pop_art,hf://huggan/wikiart/26509/0,hf://huggan/wikiart/26509/0,Unknown Artist,kmeans,0.275621,0.570526,143.190445,0.427451,0.947989,0.357649
+pop_art,hf://huggan/wikiart/26556/0,hf://huggan/wikiart/26556/0,Unknown Artist,kmeans,0.225805,0.64364,232.23553,0.835294,0.73897,0.076371
+pop_art,hf://huggan/wikiart/26748/0,hf://huggan/wikiart/26748/0,Unknown Artist,kmeans,0.482993,0.586279,18.026701,0.550981,0.368095,0.817511
+pop_art,hf://huggan/wikiart/26822/0,hf://huggan/wikiart/26822/0,Unknown Artist,kmeans,0.728952,0.637613,38.874608,0.745098,0.21624,0.89854
+pop_art,hf://huggan/wikiart/26899/0,hf://huggan/wikiart/26899/0,Unknown Artist,kmeans,0.61916,0.500767,85.39647,0.382353,0.797835,0.527334
+pop_art,hf://huggan/wikiart/26986/0,hf://huggan/wikiart/26986/0,Unknown Artist,kmeans,0.304148,0.563186,24.539886,0.333333,0.467722,0.762618
+pop_art,hf://huggan/wikiart/27019/0,hf://huggan/wikiart/27019/0,Unknown Artist,kmeans,0.228846,0.456252,300.647282,0.52353,0.564476,0.261642
+pop_art,hf://huggan/wikiart/27149/0,hf://huggan/wikiart/27149/0,Unknown Artist,kmeans,0.498965,0.591416,58.079209,0.67451,0.336891,0.682942
+pop_art,hf://huggan/wikiart/27188/0,hf://huggan/wikiart/27188/0,Unknown Artist,kmeans,0.62768,0.542519,5.222374,0.819608,0.040389,0.987324
+pop_art,hf://huggan/wikiart/27341/0,hf://huggan/wikiart/27341/0,Unknown Artist,kmeans,0.330237,0.496863,31.432006,0.409803,0.001724,1.0
+pop_art,hf://huggan/wikiart/27355/52,hf://huggan/wikiart/27355/52,andy-warhol,kmeans,0.272717,0.270063,192.77157,0.909804,0.256289,0.128552
+pop_art,hf://huggan/wikiart/27388/0,hf://huggan/wikiart/27388/0,Unknown Artist,kmeans,0.257922,0.241321,202.605674,0.4,0.324654,0.157391
+pop_art,hf://huggan/wikiart/27460/0,hf://huggan/wikiart/27460/0,Unknown Artist,kmeans,0.242948,0.601588,17.336404,0.235294,0.975026,0.514424
+pop_art,hf://huggan/wikiart/27576/0,hf://huggan/wikiart/27576/0,Unknown Artist,kmeans,0.520535,0.525441,233.871312,0.752941,0.318082,0.143431
+pop_art,hf://huggan/wikiart/27635/0,hf://huggan/wikiart/27635/0,Unknown Artist,kmeans,0.314282,0.560485,182.370673,0.911764,0.132947,0.056599
+pop_art,hf://huggan/wikiart/27659/52,hf://huggan/wikiart/27659/52,andy-warhol,kmeans,0.361843,0.701695,305.578091,0.419607,0.762993,0.534573
+pop_art,hf://huggan/wikiart/27667/0,hf://huggan/wikiart/27667/0,Unknown Artist,kmeans,0.618304,0.353689,354.560354,0.315687,0.000392,1.0
+pop_art,hf://huggan/wikiart/27718/0,hf://huggan/wikiart/27718/0,Unknown Artist,kmeans,0.316441,0.69701,61.485008,0.550981,0.266676,0.713685
+pop_art,hf://huggan/wikiart/27777/0,hf://huggan/wikiart/27777/0,Unknown Artist,kmeans,0.19846,0.476496,176.93736,0.407843,0.40237,0.234609
+pop_art,hf://huggan/wikiart/28109/0,hf://huggan/wikiart/28109/0,Unknown Artist,kmeans,0.047549,0.764238,123.60923,0.825491,0.288959,0.064347
+pop_art,hf://huggan/wikiart/28248/52,hf://huggan/wikiart/28248/52,andy-warhol,kmeans,0.862808,0.608471,330.699219,0.419608,0.557728,0.393807
+pop_art,hf://huggan/wikiart/28483/0,hf://huggan/wikiart/28483/0,Unknown Artist,kmeans,0.372676,0.273524,100.01748,0.243138,0.105718,0.103339
+pop_art,hf://huggan/wikiart/28778/0,hf://huggan/wikiart/28778/0,Unknown Artist,kmeans,0.596741,0.55843,61.480386,0.407843,0.72276,0.573165
+pop_art,hf://huggan/wikiart/28780/0,hf://huggan/wikiart/28780/0,Unknown Artist,kmeans,0.239945,0.741426,110.06741,0.464706,0.48287,0.562184
+pop_art,hf://huggan/wikiart/28876/0,hf://huggan/wikiart/28876/0,Unknown Artist,kmeans,0.131456,0.717913,12.817868,0.356863,0.066449,1.0
+pop_art,hf://huggan/wikiart/28931/0,hf://huggan/wikiart/28931/0,Unknown Artist,kmeans,0.26749,0.372323,352.206261,0.274509,0.547076,0.578992
+pop_art,hf://huggan/wikiart/28961/0,hf://huggan/wikiart/28961/0,Unknown Artist,kmeans,0.150586,0.839134,105.507041,0.87451,0.078773,0.078497
+pop_art,hf://huggan/wikiart/28975/52,hf://huggan/wikiart/28975/52,andy-warhol,kmeans,0.222685,0.266162,30.93293,0.8,0.241339,0.853745
+pop_art,hf://huggan/wikiart/28977/0,hf://huggan/wikiart/28977/0,Unknown Artist,kmeans,0.829939,0.540013,338.53402,0.547059,0.643466,0.660173
+pop_art,hf://huggan/wikiart/29008/0,hf://huggan/wikiart/29008/0,Unknown Artist,kmeans,0.182997,0.768326,38.399307,0.62549,0.145708,0.954502
+pop_art,hf://huggan/wikiart/29054/0,hf://huggan/wikiart/29054/0,Unknown Artist,kmeans,0.223838,0.436203,54.463171,0.572549,0.584067,0.706672
+pop_art,hf://huggan/wikiart/29151/0,hf://huggan/wikiart/29151/0,Unknown Artist,kmeans,0.605841,0.707674,72.62151,0.915686,0.61364,0.604096
+pop_art,hf://huggan/wikiart/29268/52,hf://huggan/wikiart/29268/52,andy-warhol,kmeans,0.44597,0.546127,94.097866,0.609804,0.410619,0.366837
+pop_art,hf://huggan/wikiart/29323/0,hf://huggan/wikiart/29323/0,Unknown Artist,kmeans,0.745047,0.488114,241.526758,0.45098,0.018992,0.0
+pop_art,hf://huggan/wikiart/29324/52,hf://huggan/wikiart/29324/52,andy-warhol,kmeans,0.386616,0.30973,19.096545,0.456862,0.017255,1.0
+pop_art,hf://huggan/wikiart/29360/0,hf://huggan/wikiart/29360/0,Unknown Artist,kmeans,0.652436,0.491041,254.700708,0.578431,0.366165,0.014506
+pop_art,hf://huggan/wikiart/29633/0,hf://huggan/wikiart/29633/0,Unknown Artist,kmeans,0.026055,0.546908,336.763549,0.460784,0.108216,0.561112
+pop_art,hf://huggan/wikiart/29649/0,hf://huggan/wikiart/29649/0,Unknown Artist,kmeans,0.431399,0.402151,316.203215,0.47647,0.604663,0.497866
+pop_art,hf://huggan/wikiart/29688/52,hf://huggan/wikiart/29688/52,andy-warhol,kmeans,0.209122,0.813892,94.655396,0.37647,0.377064,0.358355
+pop_art,hf://huggan/wikiart/29690/52,hf://huggan/wikiart/29690/52,andy-warhol,kmeans,0.719629,0.552828,343.964006,0.372549,0.324569,0.792154
+pop_art,hf://huggan/wikiart/29747/0,hf://huggan/wikiart/29747/0,Unknown Artist,kmeans,0.376658,0.504684,97.089522,0.909804,0.609451,0.583589
+pop_art,hf://huggan/wikiart/29835/0,hf://huggan/wikiart/29835/0,Unknown Artist,kmeans,0.428001,0.443967,164.401992,0.566667,0.825134,0.44264
+pop_art,hf://huggan/wikiart/29864/0,hf://huggan/wikiart/29864/0,Unknown Artist,kmeans,0.197274,0.321367,37.218173,0.535294,0.042913,1.0
+pop_art,hf://huggan/wikiart/30091/0,hf://huggan/wikiart/30091/0,Unknown Artist,kmeans,0.091828,0.884192,197.674721,0.833333,0.090748,0.018561
+pop_art,hf://huggan/wikiart/30108/52,hf://huggan/wikiart/30108/52,andy-warhol,kmeans,0.63028,0.5026,4.648204,0.519608,0.211731,0.87659
+pop_art,hf://huggan/wikiart/30144/0,hf://huggan/wikiart/30144/0,Unknown Artist,kmeans,0.833371,0.500486,3.13928,0.407843,0.256642,0.870916
+pop_art,hf://huggan/wikiart/30165/0,hf://huggan/wikiart/30165/0,Unknown Artist,kmeans,0.566667,0.372684,257.488171,0.405883,0.969312,0.453957
+pop_art,hf://huggan/wikiart/30205/0,hf://huggan/wikiart/30205/0,Unknown Artist,kmeans,0.261565,0.792758,325.698765,0.492157,0.751414,0.554018
+pop_art,hf://huggan/wikiart/30389/52,hf://huggan/wikiart/30389/52,andy-warhol,kmeans,0.219259,0.275862,352.724258,0.668627,0.212335,0.88147
+pop_art,hf://huggan/wikiart/30435/52,hf://huggan/wikiart/30435/52,andy-warhol,kmeans,0.545368,0.771477,52.436944,0.515686,0.15049,0.970398
+pop_art,hf://huggan/wikiart/30464/0,hf://huggan/wikiart/30464/0,Unknown Artist,kmeans,0.734122,0.540074,43.076399,0.496078,0.16463,0.917042
+pop_art,hf://huggan/wikiart/30573/0,hf://huggan/wikiart/30573/0,Unknown Artist,kmeans,0.315024,0.723149,12.915094,0.633334,0.698703,0.638321
+pop_art,hf://huggan/wikiart/30637/0,hf://huggan/wikiart/30637/0,Unknown Artist,kmeans,0.607373,0.352173,216.135954,0.472549,0.292132,0.154146
+pop_art,hf://huggan/wikiart/30645/0,hf://huggan/wikiart/30645/0,Unknown Artist,kmeans,0.311708,0.771029,187.305169,0.852941,0.423063,0.218442
+pop_art,hf://huggan/wikiart/30712/0,hf://huggan/wikiart/30712/0,Unknown Artist,kmeans,0.195675,0.445885,15.267861,0.794117,0.798125,0.587822
+pop_art,hf://huggan/wikiart/30778/0,hf://huggan/wikiart/30778/0,Unknown Artist,kmeans,0.40825,0.455605,242.481333,0.554902,0.730195,0.122378
+pop_art,hf://huggan/wikiart/30779/0,hf://huggan/wikiart/30779/0,Unknown Artist,kmeans,0.579355,0.668793,191.25177,0.758824,0.468325,0.232964
+pop_art,hf://huggan/wikiart/30785/0,hf://huggan/wikiart/30785/0,Unknown Artist,kmeans,0.186674,0.787563,58.655124,0.460785,0.032099,0.996429
+pop_art,hf://huggan/wikiart/30945/0,hf://huggan/wikiart/30945/0,Unknown Artist,kmeans,0.137727,0.672014,278.658352,0.680392,0.300372,0.182523
+pop_art,hf://huggan/wikiart/31082/0,hf://huggan/wikiart/31082/0,Unknown Artist,kmeans,0.349746,0.695923,37.468057,0.731372,0.027878,1.0
+pop_art,hf://huggan/wikiart/31126/0,hf://huggan/wikiart/31126/0,Unknown Artist,kmeans,0.449544,0.647946,232.936638,0.313725,0.472217,0.234984
+pop_art,hf://huggan/wikiart/31244/0,hf://huggan/wikiart/31244/0,Unknown Artist,kmeans,0.490522,0.610643,41.519501,0.813725,0.546978,0.74313
+pop_art,hf://huggan/wikiart/31296/52,hf://huggan/wikiart/31296/52,andy-warhol,kmeans,0.360864,0.723779,162.867463,0.886274,0.733268,0.405099
+pop_art,hf://huggan/wikiart/31340/0,hf://huggan/wikiart/31340/0,Unknown Artist,kmeans,0.367141,0.397134,252.835384,0.531372,0.522151,0.240009
+pop_art,hf://huggan/wikiart/31412/0,hf://huggan/wikiart/31412/0,Unknown Artist,kmeans,0.703104,0.532559,194.305813,0.531372,0.720874,0.244757
+pop_art,hf://huggan/wikiart/31477/0,hf://huggan/wikiart/31477/0,Unknown Artist,kmeans,0.183763,0.736036,99.00799,0.490196,0.462381,0.120794
+pop_art,hf://huggan/wikiart/31505/0,hf://huggan/wikiart/31505/0,Unknown Artist,kmeans,0.562444,0.628838,185.091222,0.619608,0.586022,0.286298
+pop_art,hf://huggan/wikiart/31548/0,hf://huggan/wikiart/31548/0,Unknown Artist,kmeans,0.033359,0.626912,94.733757,0.621569,0.120838,0.0
+pop_art,hf://huggan/wikiart/31574/52,hf://huggan/wikiart/31574/52,andy-warhol,kmeans,0.497768,0.471176,10.875587,0.541176,0.084556,1.0

@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "description": "Small deterministic reference set for similar palette lookup. Manual-curated support data, not trained ML.",
+  "palettes": [
+    {
+      "name": "Pop Poster",
+      "hexes": ["#FF0054", "#FFBD00", "#390099", "#9E0059", "#00BBF9"],
+      "source": "manual_curated",
+      "source_url": "https://coolors.co/ff0054-ffbd00-390099-9e0059-00bbf9"
+    },
+    {
+      "name": "Bauhaus Signal",
+      "hexes": ["#E63946", "#F1FA3C", "#1D3557", "#457B9D", "#F8F5E4"],
+      "source": "manual_curated",
+      "source_url": "https://coolors.co/e63946-f1fa3c-1d3557-457b9d-f8f5e4"
+    },
+    {
+      "name": "Museum Neutrals",
+      "hexes": ["#2B2D2F", "#6B625A", "#B8AA99", "#E7DDCF", "#F7F4EF"],
+      "source": "manual_curated",
+      "source_url": "https://coolors.co/2b2d2f-6b625a-b8aa99-e7ddcf-f7f4ef"
+    },
+    {
+      "name": "Baroque Velvet",
+      "hexes": ["#2D132C", "#801336", "#C72C41", "#EE4540", "#F6D8AE"],
+      "source": "manual_curated",
+      "source_url": "https://coolors.co/2d132c-801336-c72c41-ee4540-f6d8ae"
+    },
+    {
+      "name": "Art Nouveau Garden",
+      "hexes": ["#1F6F50", "#88A47C", "#D6C99B", "#B56B45", "#3A2E39"],
+      "source": "manual_curated",
+      "source_url": "https://coolors.co/1f6f50-88a47c-d6c99b-b56b45-3a2e39"
+    },
+    {
+      "name": "Impressionist Morning",
+      "hexes": ["#A8DADC", "#F1FAEE", "#F4A261", "#E9C46A", "#457B9D"],
+      "source": "manual_curated",
+      "source_url": "https://coolors.co/a8dadc-f1faee-f4a261-e9c46a-457b9d"
+    },
+    {
+      "name": "Ukiyo Lake",
+      "hexes": ["#1B4965", "#62B6CB", "#BEE9E8", "#CAE9FF", "#F4D35E"],
+      "source": "manual_curated",
+      "source_url": "https://coolors.co/1b4965-62b6cb-bee9e8-cae9ff-f4d35e"
+    },
+    {
+      "name": "Fauvist Heat",
+      "hexes": ["#D00000", "#FFBA08", "#3F88C5", "#032B43", "#F7F052"],
+      "source": "manual_curated",
+      "source_url": "https://coolors.co/d00000-ffba08-3f88c5-032b43-f7f052"
+    },
+    {
+      "name": "Coastal Editorial",
+      "hexes": ["#003049", "#669BBC", "#C1121F", "#FDF0D5", "#780000"],
+      "source": "manual_curated",
+      "source_url": "https://coolors.co/003049-669bbc-c1121f-fdf0d5-780000"
+    },
+    {
+      "name": "Botanical Calm",
+      "hexes": ["#344E41", "#588157", "#A3B18A", "#DAD7CD", "#F2E8CF"],
+      "source": "manual_curated",
+      "source_url": "https://coolors.co/344e41-588157-a3b18a-dad7cd-f2e8cf"
+    },
+    {
+      "name": "Monochrome Ink",
+      "hexes": ["#0B090A", "#161A1D", "#660708", "#B1A7A6", "#F5F3F4"],
+      "source": "manual_curated",
+      "source_url": "https://coolors.co/0b090a-161a1d-660708-b1a7a6-f5f3f4"
+    },
+    {
+      "name": "Sunset Product",
+      "hexes": ["#264653", "#2A9D8F", "#E9C46A", "#F4A261", "#E76F51"],
+      "source": "manual_curated",
+      "source_url": "https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51"
+    }
+  ]
+}

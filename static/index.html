@@ -1,0 +1,918 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chromasense</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0f14;
+      --panel: #121821;
+      --panel-alt: #0f141b;
+      --ink: #e8edf3;
+      --muted: #9aa6b2;
+      --line: #263241;
+      --accent: #0f766e;
+      --accent-dark: #0c5e58;
+      --warn: #d58c63;
+      --shadow: 0 18px 40px rgba(0, 0, 0, 0.34);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--ink);
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    button {
+      border: 0;
+      cursor: pointer;
+    }
+
+    .app {
+      min-height: 100vh;
+      display: grid;
+      grid-template-rows: auto 1fr;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 18px clamp(16px, 4vw, 42px);
+      border-bottom: 1px solid var(--line);
+      background: rgba(11, 15, 20, 0.8);
+      backdrop-filter: blur(12px);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 1.15rem;
+      line-height: 1.2;
+      font-weight: 760;
+    }
+
+    .status-pill {
+      min-height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 7px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      background: var(--panel);
+      font-size: 0.86rem;
+      white-space: nowrap;
+    }
+
+    main {
+      width: min(1420px, 100%);
+      margin: 0 auto;
+      padding: clamp(16px, 3vw, 34px);
+      display: grid;
+      grid-template-columns: minmax(300px, 390px) minmax(0, 1fr);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .upload-panel {
+      position: sticky;
+      top: 18px;
+    }
+
+    .dropzone {
+      min-height: 360px;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      gap: 14px;
+      padding: 18px;
+      border: 1px dashed #334253;
+      border-radius: 8px;
+      margin: 18px;
+      background: var(--panel-alt);
+    }
+
+    .dropzone.dragover {
+      border-color: var(--accent);
+      background: rgba(15, 118, 110, 0.12);
+    }
+
+    .preview-shell {
+      min-height: 220px;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      border-radius: 6px;
+      background: #10151c;
+      border: 1px solid var(--line);
+    }
+
+    .preview-shell img {
+      width: 100%;
+      height: 100%;
+      max-height: 430px;
+      object-fit: contain;
+      display: block;
+    }
+
+    .empty-preview {
+      color: var(--muted);
+      font-size: 0.95rem;
+      text-align: center;
+      padding: 22px;
+    }
+
+    .upload-actions {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .file-name {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .file-input {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .button-row {
+      display: flex;
+      gap: 10px;
+      padding: 0 18px 18px;
+    }
+
+    .btn {
+      min-height: 42px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border-radius: 8px;
+      padding: 10px 13px;
+      background: #1a222c;
+      color: var(--ink);
+      font-weight: 700;
+    }
+
+    .btn.primary {
+      background: var(--accent);
+      color: #fff;
+      flex: 1;
+    }
+
+    .btn.primary:hover {
+      background: var(--accent-dark);
+    }
+
+    .btn:disabled {
+      cursor: not-allowed;
+      opacity: 0.55;
+    }
+
+    .results {
+      display: grid;
+      gap: 18px;
+    }
+
+    .grid-two {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .section {
+      padding: 18px;
+    }
+
+    .section + .section {
+      border-top: 1px solid var(--line);
+    }
+
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    h2 {
+      font-size: 1rem;
+      line-height: 1.3;
+      font-weight: 760;
+    }
+
+    h3 {
+      font-size: 0.9rem;
+      line-height: 1.3;
+      font-weight: 760;
+      margin-bottom: 8px;
+    }
+
+    .subtle {
+      color: var(--muted);
+      font-size: 0.88rem;
+      line-height: 1.45;
+    }
+
+    .palette-comparison {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      align-items: start;
+    }
+
+    .palette-card {
+      min-width: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel-alt);
+      overflow: hidden;
+    }
+
+    .palette-card-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .palette-card-head b {
+      font-size: 0.9rem;
+    }
+
+    .palette-card-body {
+      padding: 10px 12px 12px;
+    }
+
+    .palette-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .palette-chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: rgba(15, 118, 110, 0.16);
+      color: #9ff0e7;
+      font-size: 0.74rem;
+      border: 1px solid rgba(15, 118, 110, 0.35);
+      white-space: nowrap;
+    }
+
+    .swatch {
+      min-width: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--panel-alt);
+    }
+
+    .swatch-color {
+      aspect-ratio: 1 / 0.7;
+      min-height: 54px;
+    }
+
+    .swatch-meta {
+      padding: 8px;
+      display: grid;
+      gap: 2px;
+      font-size: 0.78rem;
+      line-height: 1.25;
+    }
+
+    .hex {
+      font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+      overflow-wrap: anywhere;
+    }
+
+    .metric-list {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .metric {
+      min-height: 66px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel-alt);
+      display: grid;
+      align-content: center;
+      gap: 4px;
+    }
+
+    .metric b {
+      font-size: 0.86rem;
+      overflow-wrap: anywhere;
+    }
+
+    .metric span {
+      color: var(--muted);
+      font-size: 0.82rem;
+      overflow-wrap: anywhere;
+    }
+
+    .score-list {
+      display: grid;
+      gap: 9px;
+    }
+
+    .score-row {
+      display: grid;
+      grid-template-columns: minmax(120px, 0.9fr) minmax(90px, 1.5fr) 54px;
+      gap: 10px;
+      align-items: center;
+      min-height: 30px;
+      font-size: 0.86rem;
+    }
+
+    .bar {
+      height: 9px;
+      border-radius: 999px;
+      background: #243040;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      width: 0%;
+      background: var(--accent);
+      border-radius: inherit;
+    }
+
+    .prediction {
+      display: grid;
+      gap: 7px;
+      margin-bottom: 14px;
+    }
+
+    .prediction strong {
+      font-size: clamp(1.45rem, 2vw, 2.1rem);
+      line-height: 1.05;
+      overflow-wrap: anywhere;
+    }
+
+    #styleConfidence,
+    .score-row span:last-child {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .tag-row,
+    .examples,
+    .matches {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag,
+    .example-chip {
+      display: inline-flex;
+      min-height: 30px;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 9px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--panel-alt);
+      color: var(--ink);
+      font-size: 0.83rem;
+    }
+
+    .example-chip img {
+      width: 34px;
+      height: 34px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 1px solid var(--line);
+    }
+
+    .image-output {
+      width: 100%;
+      aspect-ratio: 2 / 1;
+      object-fit: contain;
+      display: block;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #0d1218;
+    }
+
+    .placeholder {
+      min-height: 160px;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--muted);
+      background: var(--panel-alt);
+      text-align: center;
+    }
+
+    .match-card {
+      width: min(100%, 245px);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel-alt);
+      overflow: hidden;
+    }
+
+    .mini-swatches {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      height: 34px;
+    }
+
+    .match-body {
+      display: grid;
+      gap: 4px;
+      padding: 10px;
+      font-size: 0.85rem;
+    }
+
+    .error {
+      border-color: #dfb7a5;
+      color: #7e3014;
+      background: #fff4ee;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    @media (max-width: 980px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      .upload-panel {
+        position: static;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .grid-two,
+      .metric-list {
+        grid-template-columns: 1fr;
+      }
+
+      .palette-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .score-row {
+        grid-template-columns: minmax(95px, 1fr) minmax(80px, 1fr) 48px;
+      }
+
+      .button-row,
+      .upload-actions {
+        grid-template-columns: 1fr;
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div>
+          <h1>Chromasense</h1>
+          <p class="subtle">Palette, style, and mood analyzer</p>
+        </div>
+      </div>
+      <div id="apiStatus" class="status-pill">API idle</div>
+    </header>
+
+    <main>
+      <aside class="panel upload-panel">
+        <form id="uploadForm">
+          <label id="dropzone" class="dropzone" for="fileInput">
+            <div id="previewShell" class="preview-shell">
+              <div class="empty-preview">Select image</div>
+            </div>
+            <div class="upload-actions">
+              <span id="fileName" class="file-name">No file selected</span>
+              <span class="btn">Browse</span>
+            </div>
+            <input id="fileInput" class="file-input" type="file" name="file" accept="image/*">
+          </label>
+          <div class="button-row">
+            <button id="analyzeButton" class="btn primary" type="submit" disabled>Analyze</button>
+            <button id="clearButton" class="btn" type="button">Clear</button>
+          </div>
+        </form>
+      </aside>
+
+      <section class="results">
+        <div id="message" class="panel section placeholder">Waiting for image.</div>
+
+        <div id="resultWrap" class="hidden">
+          <div class="panel">
+            <div class="section">
+              <div class="section-head">
+                <h2>Palette Comparison</h2>
+                <p id="algorithmUsed" class="subtle"></p>
+              </div>
+              <div id="paletteGrid" class="palette-comparison"></div>
+            </div>
+            <div class="section">
+              <div class="section-head">
+                <h2>Features</h2>
+                <p id="featureSource" class="subtle"></p>
+              </div>
+              <div id="featureList" class="metric-list"></div>
+            </div>
+          </div>
+
+          <div class="grid-two">
+            <div class="panel section">
+              <div class="section-head">
+                <h2>Art Style</h2>
+                <p id="styleStatus" class="subtle"></p>
+              </div>
+              <div class="prediction">
+                <strong id="stylePrediction">-</strong>
+                <p id="styleConfidence" class="subtle"></p>
+                <p id="styleExplanation" class="subtle"></p>
+              </div>
+              <h3>Scores</h3>
+              <div id="scoreList" class="score-list"></div>
+              <h3 style="margin-top: 16px;">Nearest Examples</h3>
+              <div id="nearestExamples" class="examples"></div>
+            </div>
+
+            <div class="panel section">
+              <div class="section-head">
+                <h2>Mood</h2>
+                <p id="moodTemp" class="subtle"></p>
+              </div>
+              <div class="prediction">
+                <strong id="moodName">-</strong>
+                <p id="moodTagline" class="subtle"></p>
+              </div>
+              <div id="moodTags" class="tag-row"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const form = document.getElementById("uploadForm");
+    const fileInput = document.getElementById("fileInput");
+    const analyzeButton = document.getElementById("analyzeButton");
+    const clearButton = document.getElementById("clearButton");
+    const fileName = document.getElementById("fileName");
+    const previewShell = document.getElementById("previewShell");
+    const dropzone = document.getElementById("dropzone");
+    const message = document.getElementById("message");
+    const resultWrap = document.getElementById("resultWrap");
+    const apiStatus = document.getElementById("apiStatus");
+
+    let selectedFile = null;
+
+    fileInput.addEventListener("change", () => {
+      setFile(fileInput.files && fileInput.files[0] ? fileInput.files[0] : null);
+    });
+
+    clearButton.addEventListener("click", () => {
+      fileInput.value = "";
+      selectedFile = null;
+      analyzeButton.disabled = true;
+      fileName.textContent = "No file selected";
+      previewShell.innerHTML = '<div class="empty-preview">Select image</div>';
+      showMessage("Waiting for image.");
+      apiStatus.textContent = "API idle";
+    });
+
+    ["dragenter", "dragover"].forEach((eventName) => {
+      dropzone.addEventListener(eventName, (event) => {
+        event.preventDefault();
+        dropzone.classList.add("dragover");
+      });
+    });
+
+    ["dragleave", "drop"].forEach((eventName) => {
+      dropzone.addEventListener(eventName, (event) => {
+        event.preventDefault();
+        dropzone.classList.remove("dragover");
+      });
+    });
+
+    dropzone.addEventListener("drop", (event) => {
+      const file = event.dataTransfer.files && event.dataTransfer.files[0];
+      if (file) {
+        setFile(file);
+      }
+    });
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      if (!selectedFile) {
+        showMessage("Select image first.", true);
+        return;
+      }
+
+      const body = new FormData();
+      body.append("file", selectedFile);
+      setBusy(true);
+
+      try {
+        const response = await fetch("/api/analyze", {
+          method: "POST",
+          body
+        });
+        const payload = await response.json();
+        if (!response.ok || !payload.ok) {
+          const error = payload.error || {};
+          throw new Error(error.message || "Analysis failed.");
+        }
+        renderResults(payload);
+        apiStatus.textContent = "Analysis complete";
+      } catch (error) {
+        showMessage(error.message || "Analysis failed.", true);
+        apiStatus.textContent = "API error";
+      } finally {
+        setBusy(false);
+      }
+    });
+
+    checkHealth();
+
+    async function checkHealth() {
+      try {
+        const response = await fetch("/health");
+        const payload = await response.json();
+        apiStatus.textContent = payload.ok ? "API ready" : "API unavailable";
+      } catch {
+        apiStatus.textContent = "API unavailable";
+      }
+    }
+
+    function setFile(file) {
+      selectedFile = file;
+      analyzeButton.disabled = !file;
+      fileName.textContent = file ? file.name : "No file selected";
+      if (!file) {
+        previewShell.innerHTML = '<div class="empty-preview">Select image</div>';
+        return;
+      }
+      const url = URL.createObjectURL(file);
+      previewShell.innerHTML = "";
+      const img = document.createElement("img");
+      img.alt = "";
+      img.src = url;
+      img.onload = () => URL.revokeObjectURL(url);
+      previewShell.appendChild(img);
+      showMessage("Ready.");
+    }
+
+    function setBusy(isBusy) {
+      analyzeButton.disabled = isBusy || !selectedFile;
+      analyzeButton.textContent = isBusy ? "Analyzing" : "Analyze";
+      clearButton.disabled = isBusy;
+      apiStatus.textContent = isBusy ? "Analyzing" : apiStatus.textContent;
+    }
+
+    function showMessage(text, isError = false) {
+      resultWrap.classList.add("hidden");
+      message.classList.remove("hidden", "error");
+      if (isError) {
+        message.classList.add("error");
+      }
+      message.textContent = text;
+    }
+
+    function showResults() {
+      message.classList.add("hidden");
+      resultWrap.classList.remove("hidden");
+    }
+
+    function renderResults(payload) {
+      showResults();
+      renderPalette(payload.palette);
+      renderFeatures(payload.features, payload.style_features_source);
+      renderStyle(payload.art_style);
+      renderMood(payload.mood);
+    }
+
+    function renderPalette(palette) {
+      const primaryKey = palette ? palette.algorithm_used : "kmeans";
+      const secondaryKey = primaryKey === "kmeans" ? "gmm" : "kmeans";
+      document.getElementById("algorithmUsed").textContent = palette ? "Displayed palette is fixed offline" : "";
+      document.getElementById("paletteGrid").innerHTML = [
+        {
+          label: "Displayed",
+          key: "primary",
+          chip: `fixed: ${primaryKey}`,
+        },
+        {
+          label: "Secondary Palette",
+          key: secondaryKey,
+          chip: secondaryKey.toUpperCase(),
+        },
+      ].map((section) => {
+        const colors = palette && palette[section.key] ? palette[section.key].colors || [] : [];
+        return `
+          <div class="palette-card">
+            <div class="palette-card-head">
+              <b>${section.label}</b>
+              <span class="palette-chip">${section.chip}</span>
+            </div>
+            <div class="palette-card-body">
+              ${
+                colors.length
+                  ? `<div class="palette-grid">
+                      ${colors.map((color) => {
+                        const percent = numberPercent(color.percentage);
+                        return `
+                          <div class="swatch">
+                            <div class="swatch-color" style="background:${escapeAttr(color.hex)}"></div>
+                            <div class="swatch-meta">
+                              <span class="hex">${escapeHtml(color.hex)}</span>
+                              <span class="subtle">${percent}</span>
+                            </div>
+                          </div>
+                        `;
+                      }).join("")}
+                    </div>`
+                  : '<div class="placeholder">No palette.</div>'
+              }
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function renderFeatures(features, source) {
+      document.getElementById("featureSource").textContent = source ? `source: ${source}` : "";
+      const labels = {
+        avg_saturation: "Saturation",
+        avg_lightness: "Lightness",
+        avg_hue: "Hue",
+        contrast_spread: "Contrast",
+        hue_variance: "Hue variance",
+        warm_ratio: "Warm ratio"
+      };
+      document.getElementById("featureList").innerHTML = Object.keys(labels).map((key) => `
+        <div class="metric">
+          <b>${labels[key]}</b>
+          <span>${formatFeature(key, features[key])}</span>
+        </div>
+      `).join("");
+    }
+
+    function renderStyle(style) {
+      const status = style ? style.status : "missing";
+      document.getElementById("styleStatus").textContent = status;
+      document.getElementById("stylePrediction").textContent = readable(style && style.prediction);
+      document.getElementById("styleConfidence").textContent = style && style.confidence !== null
+        ? `confidence ${numberPercent(style.confidence)}`
+        : "confidence unavailable";
+      document.getElementById("styleExplanation").textContent = style && style.explanation ? style.explanation : "";
+      const scores = style && style.all_scores ? style.all_scores : {};
+      document.getElementById("scoreList").innerHTML = Object.entries(scores).map(([name, score]) => `
+        <div class="score-row">
+          <span>${readable(name)}</span>
+          <div class="bar"><div class="bar-fill" style="width:${Math.max(0, Math.min(100, score * 100))}%"></div></div>
+          <span>${numberPercent(score)}</span>
+        </div>
+      `).join("") || '<p class="subtle">Scores unavailable.</p>';
+      renderNearestExamples(style && style.nearest_training_examples ? style.nearest_training_examples : []);
+    }
+
+    function renderNearestExamples(examples) {
+      document.getElementById("nearestExamples").innerHTML = examples.map((item) => {
+        const text = `${readable(item.style)} | d ${formatNumber(item.distance, 3)}`;
+        if (item.thumbnail_ref) {
+          return `<span class="example-chip"><img src="${escapeAttr(item.thumbnail_ref)}" alt="">${escapeHtml(text)}</span>`;
+        }
+        return `<span class="example-chip">${escapeHtml(text)}</span>`;
+      }).join("") || '<span class="example-chip">No nearest examples.</span>';
+    }
+
+    function renderMood(mood) {
+      document.getElementById("moodTemp").textContent = mood && mood.temperature ? mood.temperature : "";
+      document.getElementById("moodName").textContent = mood && mood.name ? mood.name : "-";
+      document.getElementById("moodTagline").textContent = mood && mood.tagline ? mood.tagline : "";
+      document.getElementById("moodTags").innerHTML = mood && mood.tags
+        ? mood.tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")
+        : '<span class="tag">unavailable</span>';
+    }
+
+    function formatFeature(key, value) {
+      if (value === undefined || value === null || Number.isNaN(Number(value))) {
+        return "-";
+      }
+      if (key === "avg_hue") {
+        return `${formatNumber(value, 1)} deg`;
+      }
+      return numberPercent(value);
+    }
+
+    function numberPercent(value) {
+      if (value === undefined || value === null || Number.isNaN(Number(value))) {
+        return "-";
+      }
+      return `${formatNumber(Number(value) * 100, 1)}%`;
+    }
+
+    function formatNumber(value, places) {
+      return Number(value).toLocaleString(undefined, {
+        minimumFractionDigits: 0,
+        maximumFractionDigits: places
+      });
+    }
+
+    function readable(value) {
+      if (!value) {
+        return "-";
+      }
+      return String(value).replaceAll("_", " ");
+    }
+
+    function escapeHtml(value) {
+      return String(value).replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      }[char]));
+    }
+
+    function escapeAttr(value) {
+      return escapeHtml(value);
+    }
+  </script>
+</body>
+</html>

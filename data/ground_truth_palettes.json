@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "created_at": "2026-06-22",
+    "source": "manual_visual_fixture_labels",
+    "notes": "Phase 2 committed fixtures use hand-labeled deterministic swatches for repeatable offline evaluation smoke. Extend with real photos in test_images/color_eval before final report claims."
+  },
+  "images": [
+    {
+      "file": "primary_stripes.ppm",
+      "notes": "Five equal visual color bands: red, blue, green, yellow, black.",
+      "expected_colors": ["#D7322D", "#2453C8", "#2FA24A", "#E7C735", "#202020"]
+    },
+    {
+      "file": "muted_stripes.ppm",
+      "notes": "Five equal muted visual color bands: rose, teal, ochre, slate, cream.",
+      "expected_colors": ["#B86F6B", "#4F8C8A", "#C49A47", "#596A7C", "#E6DFC8"]
+    }
+  ]
+}

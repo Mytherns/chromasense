@@ -1,0 +1,11 @@
+numpy
+pillow
+scikit-image
+scikit-learn
+scipy
+joblib
+datasets
+fastapi
+uvicorn
+python-multipart
+pytest

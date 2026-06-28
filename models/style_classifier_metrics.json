@@ -1,0 +1,119 @@
+{
+  "validation_accuracy": 0.566667,
+  "random_baseline": 0.25,
+  "selected_model": "extra_trees",
+  "candidate_results": [
+    {
+      "model": "extra_trees",
+      "validation_accuracy": 0.566667
+    },
+    {
+      "model": "random_forest",
+      "validation_accuracy": 0.525
+    },
+    {
+      "model": "gradient_boosting",
+      "validation_accuracy": 0.5
+    }
+  ],
+  "model_feature_columns": [
+    "avg_saturation",
+    "avg_lightness",
+    "hue_sin",
+    "hue_cos",
+    "contrast_spread",
+    "hue_variance",
+    "warm_ratio",
+    "saturation_lightness",
+    "saturation_contrast",
+    "lightness_contrast",
+    "hue_variance_warmth"
+  ],
+  "labels": [
+    "art_nouveau",
+    "baroque",
+    "impressionism",
+    "pop_art"
+  ],
+  "per_class_counts": {
+    "art_nouveau": 150,
+    "baroque": 150,
+    "impressionism": 150,
+    "pop_art": 150
+  },
+  "confusion_matrix": [
+    [
+      15,
+      4,
+      6,
+      5
+    ],
+    [
+      1,
+      20,
+      5,
+      4
+    ],
+    [
+      1,
+      4,
+      17,
+      8
+    ],
+    [
+      5,
+      3,
+      6,
+      16
+    ]
+  ],
+  "classification_report": {
+    "art_nouveau": {
+      "precision": 0.6818181818181818,
+      "recall": 0.5,
+      "f1-score": 0.5769230769230769,
+      "support": 30.0
+    },
+    "baroque": {
+      "precision": 0.6451612903225806,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.6557377049180327,
+      "support": 30.0
+    },
+    "impressionism": {
+      "precision": 0.5,
+      "recall": 0.5666666666666667,
+      "f1-score": 0.53125,
+      "support": 30.0
+    },
+    "pop_art": {
+      "precision": 0.48484848484848486,
+      "recall": 0.5333333333333333,
+      "f1-score": 0.5079365079365079,
+      "support": 30.0
+    },
+    "accuracy": 0.5666666666666667,
+    "macro avg": {
+      "precision": 0.5779569892473118,
+      "recall": 0.5666666666666667,
+      "f1-score": 0.5679618224444044,
+      "support": 120.0
+    },
+    "weighted avg": {
+      "precision": 0.5779569892473119,
+      "recall": 0.5666666666666667,
+      "f1-score": 0.5679618224444044,
+      "support": 120.0
+    }
+  },
+  "train_size": 480,
+  "validation_size": 120,
+  "split_strategy": "stratified_80_20_by_path",
+  "leakage_limitation": "Artist grouping not used; document possible artist/style leakage if filenames lack artist metadata.",
+  "style_features_source": "kmeans",
+  "qualitative_check": {
+    "path": "test_images\\demo_generalization",
+    "image_count": 0,
+    "note": "Use for qualitative demo discussion only; no formal accuracy claim."
+  }
+}

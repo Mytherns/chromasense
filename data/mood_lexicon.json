@@ -1,0 +1,156 @@
+{
+  "art_nouveau": {
+    "warm": [
+      {
+        "name": "Gilded Botanical",
+        "tagline": "Flowing ornament and warm color create an elegant, organic mood."
+      },
+      {
+        "name": "Amber Flourish",
+        "tagline": "Warm decorative rhythm gives the palette a crafted, graceful character."
+      }
+    ],
+    "cool": [
+      {
+        "name": "Moonlit Ornament",
+        "tagline": "Cool tones and flowing forms suggest delicate, dreamlike refinement."
+      },
+      {
+        "name": "Iris Reverie",
+        "tagline": "A cool botanical atmosphere feels graceful, quiet, and ornamental."
+      }
+    ]
+  },
+  "baroque": {
+    "warm": [
+      {
+        "name": "Dramatic Grandeur",
+        "tagline": "Warm depth and strong tonal presence create a theatrical, stately mood."
+      },
+      {
+        "name": "Ember Opulence",
+        "tagline": "Rich warmth gives the palette weight, ceremony, and visual drama."
+      }
+    ],
+    "cool": [
+      {
+        "name": "Shadowed Majesty",
+        "tagline": "Cool depth and contrast create a solemn, monumental atmosphere."
+      },
+      {
+        "name": "Nocturne Ceremony",
+        "tagline": "Dark cool tones suggest restraint, tension, and formal grandeur."
+      }
+    ]
+  },
+  "impressionism": {
+    "warm": [
+      {
+        "name": "Sunlit Air",
+        "tagline": "Warm color and soft variation evoke an open, fleeting moment."
+      },
+      {
+        "name": "Golden Glimpse",
+        "tagline": "Light warmth gives the palette a spontaneous, luminous calm."
+      }
+    ],
+    "cool": [
+      {
+        "name": "Misty Daylight",
+        "tagline": "Cool color and gentle shifts suggest fresh air and quiet movement."
+      },
+      {
+        "name": "Blue Reflection",
+        "tagline": "A cool luminous palette feels tranquil, immediate, and atmospheric."
+      }
+    ]
+  },
+  "pop_art": {
+    "warm": [
+      {
+        "name": "Electric Heat",
+        "tagline": "Bold warm color creates an energetic, direct, graphic mood."
+      },
+      {
+        "name": "Poster Pulse",
+        "tagline": "Hot color and visual punch make the palette playful and assertive."
+      }
+    ],
+    "cool": [
+      {
+        "name": "Neon Snap",
+        "tagline": "Cool saturated color gives the palette a crisp, modern charge."
+      },
+      {
+        "name": "Graphic Current",
+        "tagline": "Sharp cool color feels playful, synthetic, and visually immediate."
+      }
+    ]
+  },
+  "fauvism": {
+    "warm": [
+      {
+        "name": "Wild Radiance",
+        "tagline": "Unrestrained warm color creates an expressive, high-energy mood."
+      },
+      {
+        "name": "Chromatic Fire",
+        "tagline": "Intense warmth makes the palette feel instinctive and emotionally direct."
+      }
+    ],
+    "cool": [
+      {
+        "name": "Untamed Blue",
+        "tagline": "Expressive cool color gives the palette a vivid, unconventional force."
+      },
+      {
+        "name": "Azure Instinct",
+        "tagline": "Bold cool hues create a free, emotional, color-first atmosphere."
+      }
+    ]
+  },
+  "ukiyo_e": {
+    "warm": [
+      {
+        "name": "Vermilion Stillness",
+        "tagline": "Warm flat color creates a poised, rhythmic, narrative mood."
+      },
+      {
+        "name": "Autumn Woodblock",
+        "tagline": "Earthy warmth and clear color regions suggest crafted calm."
+      }
+    ],
+    "cool": [
+      {
+        "name": "Indigo Tide",
+        "tagline": "Cool layered color evokes measured movement and serene distance."
+      },
+      {
+        "name": "Rainprint Calm",
+        "tagline": "Restrained cool tones create a quiet, graphic sense of place."
+      }
+    ]
+  },
+  "default": {
+    "warm": [
+      {
+        "name": "Warm Resonance",
+        "tagline": "Warm palette balance creates an inviting, expressive atmosphere."
+      },
+      {
+        "name": "Sunward Tone",
+        "tagline": "Warm color relationships give the image an open, energetic character."
+      }
+    ],
+    "cool": [
+      {
+        "name": "Cool Poise",
+        "tagline": "Cool palette balance creates a calm, measured atmosphere."
+      },
+      {
+        "name": "Quiet Current",
+        "tagline": "Cool color relationships give the image a reflective, composed character."
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "primary_algorithm": "kmeans",
+  "source_report": "evaluation_report.json",
+  "decision_metric": "matched_delta_e_lt_threshold_rate",
+  "style_features_source": "kmeans",
+  "note": "Fixed offline decision. Do not switch per image at runtime."
+}

@@ -1,0 +1,233 @@
+{
+  "ground_truth": "data\\ground_truth_palettes.json",
+  "images_dir": "test_images\\color_eval",
+  "n_colors": 5,
+  "seed": 42,
+  "delta_e_threshold": 6.0,
+  "target": "85%+ matched color pairs with Delta E < 6",
+  "primary_algorithm": "kmeans",
+  "style_features_source": "kmeans",
+  "missing_files": [],
+  "results": {
+    "kmeans": {
+      "algorithm": "kmeans",
+      "image_count": 2,
+      "truth_color_count": 10,
+      "matched_color_count": 10,
+      "matched_delta_e_lt_threshold_count": 10,
+      "matched_delta_e_lt_threshold_rate": 1.0,
+      "mean_delta_e": 0.0,
+      "images": [
+        {
+          "file": "primary_stripes.ppm",
+          "truth_hexes": [
+            "#D7322D",
+            "#2453C8",
+            "#2FA24A",
+            "#E7C735",
+            "#202020"
+          ],
+          "predicted_hexes": [
+            "#E7C735",
+            "#D7322D",
+            "#2453C8",
+            "#2FA24A",
+            "#202020"
+          ],
+          "truth_color_count": 5,
+          "matched_color_count": 5,
+          "matched_delta_e_lt_threshold_count": 5,
+          "matched_delta_e_lt_threshold_rate": 1.0,
+          "mean_delta_e": 0.0,
+          "matches": [
+            {
+              "truth_hex": "#D7322D",
+              "predicted_hex": "#D7322D",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#2453C8",
+              "predicted_hex": "#2453C8",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#2FA24A",
+              "predicted_hex": "#2FA24A",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#E7C735",
+              "predicted_hex": "#E7C735",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#202020",
+              "predicted_hex": "#202020",
+              "delta_e": 0.0
+            }
+          ]
+        },
+        {
+          "file": "muted_stripes.ppm",
+          "truth_hexes": [
+            "#B86F6B",
+            "#4F8C8A",
+            "#C49A47",
+            "#596A7C",
+            "#E6DFC8"
+          ],
+          "predicted_hexes": [
+            "#C49A47",
+            "#B86F6B",
+            "#4F8C8A",
+            "#596A7C",
+            "#E6DFC8"
+          ],
+          "truth_color_count": 5,
+          "matched_color_count": 5,
+          "matched_delta_e_lt_threshold_count": 5,
+          "matched_delta_e_lt_threshold_rate": 1.0,
+          "mean_delta_e": 0.0,
+          "matches": [
+            {
+              "truth_hex": "#B86F6B",
+              "predicted_hex": "#B86F6B",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#4F8C8A",
+              "predicted_hex": "#4F8C8A",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#C49A47",
+              "predicted_hex": "#C49A47",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#596A7C",
+              "predicted_hex": "#596A7C",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#E6DFC8",
+              "predicted_hex": "#E6DFC8",
+              "delta_e": 0.0
+            }
+          ]
+        }
+      ],
+      "delta_e_threshold": 6.0
+    },
+    "gmm": {
+      "algorithm": "gmm",
+      "image_count": 2,
+      "truth_color_count": 10,
+      "matched_color_count": 10,
+      "matched_delta_e_lt_threshold_count": 10,
+      "matched_delta_e_lt_threshold_rate": 1.0,
+      "mean_delta_e": 0.0,
+      "images": [
+        {
+          "file": "primary_stripes.ppm",
+          "truth_hexes": [
+            "#D7322D",
+            "#2453C8",
+            "#2FA24A",
+            "#E7C735",
+            "#202020"
+          ],
+          "predicted_hexes": [
+            "#E7C735",
+            "#D7322D",
+            "#2453C8",
+            "#2FA24A",
+            "#202020"
+          ],
+          "truth_color_count": 5,
+          "matched_color_count": 5,
+          "matched_delta_e_lt_threshold_count": 5,
+          "matched_delta_e_lt_threshold_rate": 1.0,
+          "mean_delta_e": 0.0,
+          "matches": [
+            {
+              "truth_hex": "#D7322D",
+              "predicted_hex": "#D7322D",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#2453C8",
+              "predicted_hex": "#2453C8",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#2FA24A",
+              "predicted_hex": "#2FA24A",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#E7C735",
+              "predicted_hex": "#E7C735",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#202020",
+              "predicted_hex": "#202020",
+              "delta_e": 0.0
+            }
+          ]
+        },
+        {
+          "file": "muted_stripes.ppm",
+          "truth_hexes": [
+            "#B86F6B",
+            "#4F8C8A",
+            "#C49A47",
+            "#596A7C",
+            "#E6DFC8"
+          ],
+          "predicted_hexes": [
+            "#C49A47",
+            "#B86F6B",
+            "#4F8C8A",
+            "#596A7C",
+            "#E6DFC8"
+          ],
+          "truth_color_count": 5,
+          "matched_color_count": 5,
+          "matched_delta_e_lt_threshold_count": 5,
+          "matched_delta_e_lt_threshold_rate": 1.0,
+          "mean_delta_e": 0.0,
+          "matches": [
+            {
+              "truth_hex": "#B86F6B",
+              "predicted_hex": "#B86F6B",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#4F8C8A",
+              "predicted_hex": "#4F8C8A",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#C49A47",
+              "predicted_hex": "#C49A47",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#596A7C",
+              "predicted_hex": "#596A7C",
+              "delta_e": 0.0
+            },
+            {
+              "truth_hex": "#E6DFC8",
+              "predicted_hex": "#E6DFC8",
+              "delta_e": 0.0
+            }
+          ]
+        }
+      ],
+      "delta_e_threshold": 6.0
+    }
+  }
+}
